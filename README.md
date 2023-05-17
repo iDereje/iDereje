@@ -63,7 +63,7 @@ Join me on this exciting quest of testing excellence and let's make the world of
 </a>
  
  <a href="https://git-scm.com">
-  <img src="[icons/icons/atom.svg](https://github.com/iDereje/iDereje.github.io/blob/main/icons/icons/atom.svg)" alt="Atom" width="30" height="30" />
+  <img src="https://github.com/iDereje/iDereje.github.io/blob/main/icons/icons/atom.svg" alt="Atom" width="30" height="30" />
 </a>
 
 
