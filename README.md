@@ -2,26 +2,29 @@
 
 ## 🌟 Welcome to my world of software       testing and quality assurance! 🌟
 
-### I'm a Junior QA Engineer based in       Israel, on a quest to become a          skilled  SDET (Software Development     Engineer in  Test). 
 
- With my strong foundation in software   testing and an ISTQB certification, I   strive to contribute to the development and testing of high-quality             applications and software products.
+🌟 Welcome to my world of software testing and quality assurance! 🌟
 
+I'm a Junior QA Engineer based in Israel, on a quest to become a skilled SDET (Software Development Engineer in Test). With my strong foundation in software testing and an ISTQB certification, I strive to contribute to the development and testing of high-quality applications and software products.
 
-✨ Passionate about ensuring that software not only meets customer requirements but also exceeds user expectations, 
-I am dedicated to creating exceptional user experiences.
+✨ Passionate about ensuring that software not only meets customer requirements but also exceeds user expectations, I am dedicated to creating exceptional user experiences.
 
- In my journey towards excellence, I     love exploring the latest testing tools 
- and techniques, constantly honing my  skills. When I'm not busy testing, you can find me immersed in the virtual worlds of video games 🎮, diving into the pages of captivating books 📚, or embarking on thrilling adventures around the globe 🌍.
+In my journey towards excellence, I love exploring the latest testing tools and techniques, constantly honing my skills. When I'm not busy testing, you can find me immersed in the virtual worlds of video games 🎮, diving into the pages of captivating books 📚, or embarking on thrilling adventures around the globe 🌍.
 
 Join me on this exciting quest of testing excellence and let's make the world of software even better! 🚀
 
 <hr>
 
-## 💻 Programming  Languages and Tools
+ 
+ 
+
+## 💻 Programming  Languages and Tools 
 
 <div align="left">
 
-<a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
+<a href="https://www.python.org">
+  <img src="https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png" alt="Python" width="30" height="30" />
+</a>
 
 <a href="https://www.selenium.dev">
   <img src="https://img.icons8.com/?size=2x&id=VOnRj9vGpXV8&format=png" alt="selenium" width="30" height="30" />
@@ -39,7 +42,8 @@ Join me on this exciting quest of testing excellence and let's make the world of
   <img src="https://img.icons8.com/color/48/000000/cucumber.png" alt="Cucumber" width="30" height="30"/>
 </a>
 
-<a href="https://www.linux.org/"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> 
+<a href="https://www.linux.org/">
+  <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="30" height="30"/>
 </a>
 
 <a href="https://www.debian.org/">
@@ -47,7 +51,7 @@ Join me on this exciting quest of testing excellence and let's make the world of
 </a>
 
 <a href="https://docs.microsoft.com/en-us/powershell/">
-  <img src="https://img.icons8.com/color/48/000000/powershell.png" alt="PowerShell" width="30" height="30"/
+  <img src="https://img.icons8.com/color/48/000000/powershell.png" alt="PowerShell" width="30" height="30"/>
 </a>
 
 <a href="https://git-scm.com">
@@ -61,50 +65,28 @@ Join me on this exciting quest of testing excellence and let's make the world of
 <a href="https://www.docker.com">
   <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="30" height="30"/>
 </a>
-
-<a href="https://www.xmind.net">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/xmind.svg" alt="XMind" width="30" height="30"/>
+ 
+ <a href="https://git-scm.com">
+  <img src="icons/icons/atom.svg" alt="Atom" width="30" height="30" />
 </a>
 
-<a href="https://www.office.com">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/office365.svg" alt="Office 365" width="30" height="30"/>
-</a>
 
-<a href="https://www.jenkins.io">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/jenkins.svg" alt="Jenkins" width="30" height="30"/>
-</a>
 
-<a href="https://travis-ci.org">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/travisci.svg" alt="Travis CI" width="30" height="30"/>
-</a>
 
-<a href="https://kde.org">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/kde.svg" alt="KDE" width="30" height="30"/>
-</a>
-
-<a href="https://www.gnome.org">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/gnome.svg" alt="GNOME" width="30" height="30"/>
-</a>
-
-<a href="https://archlinux.org">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/archlinux.svg" alt="Arch Linux" width="30" height="30"/>
-</a>
-
-<a href="https://git-scm.com">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/git.svg" alt="Git" width="30" height="30" />
-</a>
 
 </div>
 
-<hr>
+  
 
-## Github Dynamic States Bars
+<hr>
+ 
+ 
+
+## Dynamic Stat 
  
  <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=iDereje&theme=react&line_height=40&hide=css"/> </a>
  <br>
-```
-
-In this updated code, I have replaced the SVG sources for the Atom icon with the Git icon, as I couldn't find the Atom icon in the SuperTinyIcons library.
+ 
 
  
  ![iDereje's GitHub stats](https://github-readme-stats.vercel.app/api?username=iDereje&rank_icon=github&theme=radical)
@@ -134,4 +116,4 @@ In this updated code, I have replaced the SVG sources for the Atom icon with the
  <hr>
   <br>
 
-<span>  <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="
+<span>  <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" />
