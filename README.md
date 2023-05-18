@@ -62,8 +62,9 @@
 #####  <hr>
 
 ##  Github Statistics
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iDereje&layout=compact&langs_count=10&theme=react&line_height=40&hide=css&count_private=true)](https://github.com/iDereje)
 
- <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=iDereje&theme=react&line_height=40&hide=css&count_private&langs_count=10"/> </a>
+
 
 ##### <hr>
 
