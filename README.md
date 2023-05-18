@@ -67,7 +67,7 @@
 
 ##### <hr>
 
- ![iDereje's GitHub stats](https://github-readme-stats.vercel.app/api?username=iDereje&rank_icon=github&theme=radical)
+ ![iDereje's GitHub stats](https://github-readme-stats.vercel.app/api?username=iDereje&rank_icon=github&theme=radical&count_private=true)
 
 #### <hr>
  
