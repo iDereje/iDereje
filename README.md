@@ -18,9 +18,7 @@ Join me on this exciting quest of testing excellence and let's make the world of
 
 <div align="left">
 
-<a href="https://www.python.org">
-  <img src="https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png" alt="Python" width="30" height="30" />
-</a>
+<a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
 
 <a href="https://www.selenium.dev">
   <img src="https://img.icons8.com/?size=2x&id=VOnRj9vGpXV8&format=png" alt="selenium" width="30" height="30" />
