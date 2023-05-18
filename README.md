@@ -1,24 +1,19 @@
 # Hey I Am David
 
-## 🌟 Welcome to my world of software       testing and quality assurance! 🌟
+#### 🌟 Welcome to my world of software       testing and quality assurance! 🌟
 
 
-🌟 Welcome to my world of software testing and quality assurance! 🌟
+##### I'm a Junior QA Engineer based in Israel, on a quest to become a skilled SDET (Software Development Engineer in Test). With my strong foundation in software testing and an ISTQB certification, I strive to contribute to the development and testing of high-quality applications and software products.
 
-I'm a Junior QA Engineer based in Israel, on a quest to become a skilled SDET (Software Development Engineer in Test). With my strong foundation in software testing and an ISTQB certification, I strive to contribute to the development and testing of high-quality applications and software products.
+##### ✨ Passionate about ensuring that software not only meets customer requirements but also exceeds user expectations, I am dedicated to creating exceptional user experiences.
 
-✨ Passionate about ensuring that software not only meets customer requirements but also exceeds user expectations, I am dedicated to creating exceptional user experiences.
+##### In my journey towards excellence, I love exploring the latest testing tools and techniques, constantly honing my skills. When I'm not busy testing, you can find me immersed in the virtual worlds of video games 🎮, diving into the pages of captivating books 📚, or embarking on thrilling adventures around the globe 🌍.
 
-In my journey towards excellence, I love exploring the latest testing tools and techniques, constantly honing my skills. When I'm not busy testing, you can find me immersed in the virtual worlds of video games 🎮, diving into the pages of captivating books 📚, or embarking on thrilling adventures around the globe 🌍.
+##### Join me on this exciting quest of testing excellence and let's make the world of software even better! 🚀
 
-Join me on this exciting quest of testing excellence and let's make the world of software even better! 🚀
+## <hr>
 
-<hr>
-
- 
- 
-
-## 💻 Programming  Languages and Tools 
+##### 💻 Programming  Languages and Tools 
 
 <div align="left">
 
