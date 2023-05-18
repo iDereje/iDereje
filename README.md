@@ -61,12 +61,17 @@ Join me on this exciting quest of testing excellence and let's make the world of
   <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="30" height="30"/>
 </a>
 
+<aSure, I can try to fix the SVG sources. Here's the updated code with fixed SVG sources:
+
+```html
+<div align="center">
+
 <a href="https://www.xmind.net">
   <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/xmind.svg" alt="XMind" width="30" height="30"/>
 </a>
 
 <a href="https://www.office.com">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/office365.svg" alt="Office 360" width="30" height="30"/>
+  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/office365.svg" alt="Office 365" width="30" height="30"/>
 </a>
 
 <a href="https://www.jenkins.io">
@@ -90,7 +95,7 @@ Join me on this exciting quest of testing excellence and let's make the world of
 </a>
 
 <a href="https://git-scm.com">
-  <img src="https://github.com/iDereje/iDereje.github.io/blob/main/icons/icons/atom.svg" alt="Atom" width="30" height="30" />
+  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/git.svg" alt="Git" width="30" height="30" />
 </a>
 
 </div>
@@ -101,7 +106,9 @@ Join me on this exciting quest of testing excellence and let's make the world of
  
  <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=iDereje&theme=react&line_height=40&hide=css"/> </a>
  <br>
- 
+```
+
+In this updated code, I have replaced the SVG sources for the Atom icon with the Git icon, as I couldn't find the Atom icon in the SuperTinyIcons library.
 
  
  ![iDereje's GitHub stats](https://github-readme-stats.vercel.app/api?username=iDereje&rank_icon=github&theme=radical)
