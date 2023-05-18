@@ -1,7 +1,7 @@
 # Hey I Am David
-## <hr>
-
-#### 🌟 Welcome to my world of software       testing and quality assurance! 🌟
+#### <hr>
+## 🌟 Welcome to my world of software       testing and quality assurance! 🌟
+#### <hr>
 
 
 #### I'm a Junior QA Engineer based in Israel, on a quest to become a skilled SDET (Software Development Engineer in Test). With my strong foundation in software testing and an ISTQB certification, I strive to contribute to the development and testing of high-quality applications and software products.
