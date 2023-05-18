@@ -39,14 +39,15 @@ Join me on this exciting quest of testing excellence and let's make the world of
   <img src="https://img.icons8.com/color/48/000000/cucumber.png" alt="Cucumber" width="30" height="30"/>
 </a>
 
-<a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
+<a href="https://www.linux.org/"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> 
+</a>
 
 <a href="https://www.debian.org/">
   <img src="https://img.icons8.com/color/48/000000/debian.png" alt="Debian" width="30" height="30"/>
 </a>
 
 <a href="https://docs.microsoft.com/en-us/powershell/">
-  <img src="https://img.icons8.com/color/48/000000/powershell.png" alt="PowerShell" width="30" height="30"/>
+  <img src="https://img.icons8.com/color/48/000000/powershell.png" alt="PowerShell" width="30" height="30"/
 </a>
 
 <a href="https://git-scm.com">
@@ -60,11 +61,6 @@ Join me on this exciting quest of testing excellence and let's make the world of
 <a href="https://www.docker.com">
   <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="30" height="30"/>
 </a>
-
-<aSure, I can try to fix the SVG sources. Here's the updated code with fixed SVG sources:
-
-```html
-<div align="center">
 
 <a href="https://www.xmind.net">
   <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/xmind.svg" alt="XMind" width="30" height="30"/>
