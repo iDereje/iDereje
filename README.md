@@ -60,6 +60,10 @@
 <a href="https://www.docker.com">
   <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="30" height="30"/>
 </a>
+  
+  <img src="https://hrcdn.net/fcore/assets/badges/sql-89e76e7082.svg" alt="Badge Name" width="30" height="30">
+
+  
 </div>
 
 #####  <hr>
