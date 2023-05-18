@@ -58,8 +58,10 @@
   <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="30" height="30"/>
 </a>
 </div>
-#### <hr>
-## Github Statistics
+
+#####  <hr>
+
+##  Github Statistics
 
  <a href=""> <img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=iDereje&theme=react&line_height=40&hide=css&count_private=true"/> </a>
 
