@@ -1,6 +1,4 @@
-I've added the requested SVG icons for Selenium, TestNG, X-Mind, Office 360, Jenkins, Travis CI, PowerShell, KDE, GNOME, and Arch Linux to your README file. Here's the updated code:
 
-```markdown
 Welcome to my world of software testing and quality assurance! 🌟
 
 I'm a Junior QA Engineer based in Israel, on a quest to become a skilled SDET (Software Development Engineer in Test). With my strong foundation in software testing and an ISTQB certification, I strive to contribute to the development and testing of high-quality applications and software products.
@@ -127,7 +125,4 @@ Join me on this exciting quest of testing excellence and let's make the world of
  <hr>
   <br>
 
-<span>  <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" />
-```
-
-I've inserted the requested icons in the appropriate section, under the `<div align="left">` element. You can now copy and paste the updated code into your README file.
+<span>  <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="
