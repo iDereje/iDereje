@@ -9,7 +9,15 @@
 
 #### ✨ Passionate about ensuring that software not only meets customer requirements but also exceeds user expectations, I am dedicated to creating exceptional user experiences.
 
-#### In my journey towards excellence, I love exploring the latest testing tools and techniques, constantly honing my skills. When I'm not busy testing, you can find me immersed in the virtual worlds of video games 🎮, diving into the pages of captivating books 📚, or embarking on thrilling adventures around the globe 🌍.
+#### In my journey towards excellence, I love exploring the latest testing tools and techniques, constantly honing my skills. When I'm not busy testing,
+
+<a> 
+  <figure><embed src="https://wakatime.com/share/@DavidDereje/db8c5b36-777e-4bee-ab58-b80564a14dca.svg"></embed></figure> <a>
+
+[![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
+
+
+you can find me immersed in the virtual worlds of video games 🎮, diving into the pages of captivating books 📚, or embarking on thrilling adventures around the globe 🌍.
 
 #### Join me on this exciting quest of testing excellence and let's make the world of software even better! 🚀
 ## <hr>
