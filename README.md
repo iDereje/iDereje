@@ -68,6 +68,11 @@ you can find me immersed in the virtual worlds of video games 🎮, diving into 
   <img src="icons/vscode.svg" alt="Docker" width="30" height="30"/>
 </a>
   
+  <a href=" https://www.jetbrains.com/help/idea/getting-started.html">
+  <img src="icons/IntelliJ_IDEA_Icon.svg" alt="Intellij" width="30" height="30"/>
+</a>
+
+ 
   <a href ="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">
   <img src="https://hrcdn.net/fcore/assets/badges/sql-89e76e7082.svg" alt="Badge Name" width="30" height="30">
 </a>
