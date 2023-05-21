@@ -64,8 +64,8 @@ you can find me immersed in the virtual worlds of video games 🎮, diving into 
   <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="30" height="30"/>
 </a>
   
-  <a href="[https://www.docker.com](https://code.visualstudio.com/docs)">
-  <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="30" height="30"/>
+  <a href="https://code.visualstudio.com/docs">
+  <img src="icons/vscode.svg" alt="Docker" width="30" height="30"/>
 </a>
   
   <a href ="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">
