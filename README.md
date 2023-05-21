@@ -1,4 +1,5 @@
-![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green)
+![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
+
 
 
 # Hey I Am David
@@ -14,7 +15,6 @@
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@DavidDereje/babbb770-80ad-445b-9362-0353f063d94c.png" /></a>
 
-[![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
 
 
 you can find me immersed in the virtual worlds of video games 🎮, diving into the pages of captivating books 📚, or embarking on thrilling adventures around the globe 🌍.
