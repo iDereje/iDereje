@@ -1,16 +1,12 @@
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-# Hey , I Am David !
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daviddereje/)[![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](derejeisack@gmail.com)
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=false&vCenter=flase&width=800&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Test+Engineer🔨;Ensuring+quality+in+🧪software🐞+is+my+passion;Finding+🐛bugs🔍+and+making+software+🚀better;Debugging+like+a+ninja;+and+Reporting+issues+like+a+pro+is+my+goal;)](https://git.io/typing-svg)
+
+
 #### <hr>
-## 🌟 Welcome to my world of software       testing and quality assurance! 🌟
+## 🌟 Welcome to my world of software       testing 🧪 coding and quality assurance! 🌟
 #### <hr>
 #### I'm a Junior QA Engineer based in Israel, on a quest to become a skilled SDET (Software Development Engineer in Test). With my strong foundation in software testing and an ISTQB certification, I strive to contribute to the development and testing of high-quality applications and software products.
-
-#### ✨ Passionate about ensuring that software not only meets customer requirements but also exceeds user expectations, I am dedicated to creating exceptional user experiences.
-
-#### In my journey towards excellence, I love exploring the latest testing tools and techniques, constantly honing my skills. When I'm not busy testing,and coding 
-
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@DavidDereje/babbb770-80ad-445b-9362-0353f063d94c.png" /></a>
 
