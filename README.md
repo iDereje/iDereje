@@ -1,8 +1,5 @@
-![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)[![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
-
-
-
-# Hey I Am David 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+# Hey , I Am David !
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daviddereje/)[![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](derejeisack@gmail.com)
 
 #### <hr>
@@ -98,6 +95,7 @@ you can find me immersed in the virtual worlds of video games 🎮, diving into 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/iDereje/spotify-github-profile)
 
 #### <hr>
+![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green)![](https://komarev.com/ghpvc/?username=iDereje&color=green) [![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
 
 
 ## 📞 Open For Hire  
@@ -108,8 +106,6 @@ you can find me immersed in the virtual worlds of video games 🎮, diving into 
 </div>
 
 
-
-![](https://komarev.com/ghpvc/?username=iDereje&color=green) <span>  <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" /> 
-
-
+  
+<img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" /> 
 
