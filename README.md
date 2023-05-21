@@ -1,8 +1,10 @@
-![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
+![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)[![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
 
 
 
-# Hey I Am David
+# Hey I Am David 
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daviddereje/)[![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](derejeisack@gmail.com)
+
 #### <hr>
 ## 🌟 Welcome to my world of software       testing and quality assurance! 🌟
 #### <hr>
