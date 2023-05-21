@@ -23,59 +23,86 @@ you can find me immersed in the virtual worlds of video games 🎮, diving into 
 <a href="https://www.python.org">
   <img src="https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png" alt="Python" width="30" height="30" />
 </a>
+  
 
 <a href="https://www.selenium.dev">
   <img src="https://img.icons8.com/?size=2x&id=VOnRj9vGpXV8&format=png" alt="selenium" width="30" height="30" />
 </a>
+  
 
 <a href="https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/">
   <img src="https://img.icons8.com/?size=2x&id=WbhlkucPF3tZ&format=png" alt="Selenium Test Automation" width="30" height="30" />
 </a>
+  
 
 <a href="https://testng.org">
   <img src="https://img.icons8.com/color/48/000000/test-tube-rack.png" alt="TestNG" width="30" height="30"/>
 </a>
+  
 
 <a href="https://cucumber.io">
   <img src="https://img.icons8.com/color/48/000000/cucumber.png" alt="Cucumber" width="30" height="30"/>
 </a>
+  
 
 <a href="https://www.linux.org/">
   <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="30" height="30"/>
 </a>
+  
 
 <a href="https://www.debian.org/">
   <img src="https://img.icons8.com/color/48/000000/debian.png" alt="Debian" width="30" height="30"/>
 </a>
-
+  
+  
+<a href="https://archlinux.org/">
+  <img src="icons/Arch_Linux_-Crystal-_icon_2.svg" alt="Debian" width="30" height="30"/>
+</a>
+  
+  
 <a href="https://docs.microsoft.com/en-us/powershell/">
   <img src="https://img.icons8.com/color/48/000000/powershell.png" alt="PowerShell" width="30" height="30"/>
 </a>
+  
 
 <a href="https://git-scm.com">
   <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="30" height="30" />
 </a>
+  
 
 <a href="https://github.com">
   <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" width="30" height="30" />
 </a>
+  
 
 <a href="https://www.docker.com">
   <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="30" height="30"/>
 </a>
   
-  <a href="https://code.visualstudio.com/docs">
+  
+<a href="https://code.visualstudio.com/docs">
   <img src="icons/vscode.svg" alt="Docker" width="30" height="30"/>
 </a>
   
-  <a href=" https://www.jetbrains.com/help/idea/getting-started.html">
+  
+<a href=" https://www.jetbrains.com/help/idea/getting-started.html">
   <img src="icons/IntelliJ_IDEA_Icon.svg" alt="Intellij" width="30" height="30"/>
 </a>
-
+  
+  
+<a href="https://www.jetbrains.com/help/pycharm/settings-tools-python-integrated-tools.html">
+  <img src="icons/PyCharm_Icon.svg" alt="Intellij" width="30" height="30"/>
+</a>
+  
+  
+  
+  
  
-  <a href ="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">
+<a href ="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">
   <img src="https://hrcdn.net/fcore/assets/badges/sql-89e76e7082.svg" alt="Badge Name" width="30" height="30">
 </a>
+  
+  
   
 </div>
 
