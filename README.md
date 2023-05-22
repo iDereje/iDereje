@@ -5,7 +5,7 @@
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=false&vCenter=flase&width=700&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Test+Engineer🧰;Ensuring+quality+in+software💻+is+my+passion;Finding+bugs🐞+and+making+software+🚀better;Debugging+like+a+ninja🥷;+and+Reporting+issues+like+a+pro⚔️+is+my+goal✅;)](https://git.io/typing-svg)
 
-![iDereje GitHub stats](https://github-readme-stats.vercel.app/api?username=iDereje&show_icons=true&theme=radical)
+
 
 
 #### <hr>
