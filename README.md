@@ -12,7 +12,8 @@
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@DavidDereje/babbb770-80ad-445b-9362-0353f063d94c.png" /></a>
 
 
-#### Join me on this exciting quest of testing excellence and let's make the world of software even better! 🚀
+### Join me on this exciting quest of testing excellence and let's make the world of software even better! 🚀
+
 ## <hr>
 ## 💻 Programming  Languages and Tools
 
