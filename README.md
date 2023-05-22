@@ -110,12 +110,39 @@
   <img src="icons/PyCharm_Icon.svg" alt="Intellij" width="38" height="38"/>
 </a>
   
-  
+  <a href="https://jekyllrb.com/docs/" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/jekyll-color.svg" alt="Jekyll" width="38" height="38" />
+</a>
+
+<a href="https://junit.org/junit5/docs/current/user-guide/" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/junit5-color.svg" alt="JUnit 5" width="38" height="38" />
+</a>
+
+<a href="https://www.apple.com/macos" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/macos-color.svg" alt="macOS" width="38" height="38" />
+</a>
+
+<a href="https://www.microsoft.com/microsoft-365" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/microsoftoffice-color.svg" alt="Microsoft Office" width="38" height="38" />
+</a>
   
   
  
 <a href ="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">
   <img src="https://hrcdn.net/fcore/assets/badges/sql-89e76e7082.svg" alt="Badge Name" width="38" height="38">
+</a>
+ <a href="https://kubuntu.org" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/kubuntu-color.svg" alt="Kubuntu" width="38" height="38" />
+</a>
+
+
+
+<a href="https://pop.system76.com" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/popos-color.svg" alt="Pop!_OS" width="38" height="38" />
+</a>
+
+<a href="https://www.postgresql.org/docs/" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/postgresql-color.svg" alt="PostgreSQL" width="38" height="38" />
 </a>
   
   
