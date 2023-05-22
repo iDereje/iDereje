@@ -165,7 +165,7 @@
 
 ### **Got this far ? take a break  and  Code to the rhythm  🎹  , debug with a beat. Music unlocks the mind 🧮, making stress retreat 🏖️**
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/iDereje/spotify-github-profile)
+[![spotify-github-profile](https://iDereje.github.io&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/iDereje/spotify-github-profile)
 
 
 ##  Github Statistics
