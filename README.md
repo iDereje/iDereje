@@ -1,4 +1,4 @@
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daviddereje/)[![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](derejeisack@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daviddereje/) [![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](https://derejeisack@gmail.com)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=false&vCenter=flase&width=800&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Test+Engineer🔨;Ensuring+quality+in+🧪software🐞+is+my+passion;Finding+🐛bugs🔍+and+making+software+🚀better;Debugging+like+a+ninja;+and+Reporting+issues+like+a+pro+is+my+goal;)](https://git.io/typing-svg)
 
