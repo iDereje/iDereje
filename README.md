@@ -41,9 +41,6 @@
 </a>
   
 
-<a href="https://cucumber.io">
-  <img src="https://img.icons8.com/color/48/000000/cucumber.png" alt="Cucumber" width="38" height="38"/>
-</a>
   
 
 <a href="https://www.linux.org/">
@@ -144,12 +141,29 @@
 <a href="https://www.postgresql.org/docs/" target="_blank">
   <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/postgresql-color.svg" alt="PostgreSQL" width="38" height="38" />
 </a>
-  
-  
+ <a href="https://www.atlassian.com/software/jira" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/jira-color.svg" alt="Jira" width="38" height="38" />
+</a>
+ <a href="https://slack.com" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/slack-color.svg" alt="Slack" width="38" height="38" />
+</a>
+
+<a href="https://stackoverflow.com" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/stackoverflow-color.svg" alt="Stack Overflow" width="38" height="38" />
+</a>
+
+<a href="https://ubuntu.com" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/ubuntu-color.svg" alt="Ubuntu" width="38" height="38" />
+</a>
   
 </div>
 
 #####  <hr>
+
+### **Got this far ? take a break  and  Code to the rhythm  🎹  , debug with a beat. Music unlocks the mind 🧮, making stress retreat 🏖️**
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/iDereje/spotify-github-profile)
+
 
 ##  Github Statistics
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=iDereje&layout=compact&langs_count=10&theme=react&line_height=40&hide=css&count_private=true)](https://github.com/iDereje)
@@ -166,8 +180,7 @@
   [![trophy](https://github-profile-trophy.vercel.app/?username=iDereje)](https://github.com/iDereje/github-profile-trophy)
 
 
-#### <hr>
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false)](https://github.com/iDereje/spotify-github-profile)
+
 
 #### <hr>
 ![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green)![](https://komarev.com/ghpvc/?username=iDereje&color=green) [![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
