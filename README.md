@@ -162,10 +162,21 @@
 </a>
 
 <a href="https://ubuntu.com" target="_blank">
-  <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/ubuntu-color.svg" alt="Ubuntu" width="32" height="32" />
+    <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/ubuntu-color.svg" alt="Ubuntu" width="32" height="32" />
 </a>
   
 </div>
 
   
 <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" /> 
+### 📞 Open For Hire  
+<div align="left">
+  <a href="mailto:derejeisack@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" width="40" height="40"/></a>
+  <a href="https://www.linkedin.com/in/daviddereje/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="40" height="40"/></a>
+  <a href="https://twitter.com/DavidDerejeM"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter" width="40" height="40"/></a>
+</div>
+
+![](https://komarev.com/ghpvc/?username=iDereje&color=green) <span>  <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" /> 
+
+
+
