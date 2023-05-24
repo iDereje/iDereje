@@ -2,6 +2,8 @@
 
 ![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green)![](https://komarev.com/ghpvc/?username=iDereje&color=green) [![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
 
+![Badge](https://img.shields.io/badge/circleci-343434?style=for-the-badge&logo=circleci&logoColor=white)
+
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=false&vCenter=flase&width=700&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Test+Engineer🧰;Ensuring+quality+in+software💻+is+my+passion;Finding+bugs🐞+and+making+software+🚀better;Debugging+like+a+ninja🥷;+and+Reporting+issues+like+a+pro⚔️+is+my+goal✅;)](https://git.io/typing-svg)
 
