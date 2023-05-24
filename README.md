@@ -25,6 +25,8 @@
 
 ## 💻 Programming  Languages and Tools
 
+<!-- [![My Skills](https://skillicons.dev/icons?i=python,selenium,java,gitlab,junit,intellij,pycharm,)](https://skillicons.dev) -->
+
 <div align="left">
 
 <a href="https://www.python.org">
