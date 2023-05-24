@@ -167,9 +167,6 @@
   
 </div>
 
-  
-<img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" /> 
-
 ## 📞 Open For Hire  
 <div align="left">
   <a href="mailto:derejeisack@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" width="40" height="40"/></a>
