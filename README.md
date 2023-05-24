@@ -104,7 +104,7 @@
 </a>
   
   
-<a href=" https://www.jetbrains.com/help/idea/getting-started.html">
+<a href="https://www.jetbrains.com/help/idea/getting-started.html">
   <img src="icons/IntelliJ_IDEA_Icon.svg" alt="Intellij" width="32" height="32"/>
 </a>
   
