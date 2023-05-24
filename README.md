@@ -20,9 +20,7 @@
 ### Join me on this exciting quest of testing excellence and let's make the world of software even better! 🚀
 
 ## <hr>
-Sure! Here's the modified version with a width and height of 32:
 
-```html
 ## 💻 Programming  Languages and Tools
 
 <div align="left">
@@ -76,6 +74,7 @@ Sure! Here's the modified version with a width and height of 32:
 
 <a href="https://github.com">
   <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" width="32" height="32" />
+  
 </a>
   <a href="https://circleci.com/docs/" target="_blank">
   <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/circleci-color.svg" alt="CircleCI" width="32" height="32" />
@@ -87,7 +86,6 @@ Sure! Here's the modified version with a width and height of 32:
 
 <a href="https://about.gitlab.com" target="_blank">
   <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2
-
 /icons/gitlab-color.svg" alt="GitLab" width="32" height="32" />
 </a>
 
@@ -136,9 +134,9 @@ Sure! Here's the modified version with a width and height of 32:
 <a href ="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">
   <img src="https://hrcdn.net/fcore/assets/badges/sql-89e76e7082.svg" alt="Badge Name" width="32" height="32">
 </a>
+
  <a href="https://kubuntu.org" target="_blank">
   <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/kubuntu-color.svg" alt
-
 ="Kubuntu" width="32" height="32" />
 </a>
 
@@ -154,6 +152,7 @@ Sure! Here's the modified version with a width and height of 32:
  <a href="https://www.atlassian.com/software/jira" target="_blank">
   <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/jira-color.svg" alt="Jira" width="32" height="32" />
 </a>
+
  <a href="https://slack.com" target="_blank">
   <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/slack-color.svg" alt="Slack" width="32" height="32" />
 </a>
