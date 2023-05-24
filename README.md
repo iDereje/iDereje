@@ -89,8 +89,7 @@
 </a>
 
 <a href="https://about.gitlab.com" target="_blank">
-  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2
-/icons/gitlab-color.svg" alt="GitLab" width="32" height="32" />
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/gitlab-color.svg" alt="GitLab" width="32" height="32" />
 </a>
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
