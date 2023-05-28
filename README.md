@@ -21,16 +21,21 @@
 <!-- [![My Skills](https://skillicons.dev/icons?i=python,selenium,java,gitlab,junit,intellij,pycharm,)](https://skillicons.dev) -->
 
 <div align="left">
+ 
+ <a href="https://www.postgresql.org/docs/" target="_blank">
+ <img src="https://skillicons.dev/icons?i=postgresql"  style="width: 30PX; backgroung: transperent">
+ </a>
+ <a href="https://docs.oracle.com/en/java/" target="_blank">
+ <img src="https://skillicons.dev/icons?i=java" style="width: 30PX;"/>
+ </a>
+ <a href="https://www.selenium.dev/documentation/" target="_blank">
+ <img src="https://skillicons.dev/icons?i=selenium" style="width: 30PX;"/>
+ </a>
 
 <a href="https://www.python.org">
-  <img src="https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png" alt="Python" width="32" height="32" />
+<img src="https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png" alt="Python" width="32" height="32" />
 </a>
-  
-
-<a href="https://www.selenium.dev">
-  <img src="https://img.icons8.com/?size=2x&id=VOnRj9vGpXV8&format=png" alt="selenium" width="32" height="32" 
-</a>
-  
+ 
 
 <a href="https://docs.oracle.com/en/java/">
   <img src="https://img.icons8.com/?size=2x&id=WbhlkucPF3tZ&format=png" alt="java" width="32" height="32" />
