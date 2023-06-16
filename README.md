@@ -30,7 +30,7 @@
  <img src="https://skillicons.dev/icons?i=postgresql"  style=width: "25PX"; backgroung: transperent">
  </a>
  <a href="https://docs.oracle.com/en/java/" target="_blank">
- <img src="https://skillicons.dev/icons?i=java" style="width: 100PX;"/>
+ <img src="https://skillicons.dev/icons?i=java" width="100PX"/>
  </a>
  <a href="https://www.selenium.dev/documentation/" target="_blank">
  <img src="https://skillicons.dev/icons?i=selenium" style="width: 30PX;"/>
