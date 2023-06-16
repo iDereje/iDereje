@@ -22,7 +22,7 @@
 h1>
 
 
-<img src="https://skillicons.dev/icons?i=postman,selenium,postgresql,html,css,javascript,java,python, "width="100%">
+<img src="https://skillicons.dev/icons?i=postman,selenium,postgresql,html,css,javascript,java,python" "width="100%">
 <img src="https://skillicons.dev/icons?i=javascript,typescript,nodejs,php,androidstudio,redux,laravel,mysql,mongodb,postgresql" width="100%">
 <div align="left">
  
