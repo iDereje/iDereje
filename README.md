@@ -33,7 +33,7 @@
  <img src="https://skillicons.dev/icons?i=java" width="35PX" height="100%"/>
  </a>
  <a href="https://www.selenium.dev/documentation/" target="_blank">
- <img src="https://skillicons.dev/icons?i=selenium" style="width: 30PX;"/>
+ <img src="https://skillicons.dev/icons?i=selenium" width="35PX" height="100%";"/>
  </a>
 
 <a href="https://www.python.org">
