@@ -16,10 +16,14 @@
 
 ## <hr>
 
-## 💻 Programming  Languages and Tools
+### 💻 Programming  Languages and Tools
 
 <!-- [![My Skills](https://skillicons.dev/icons?i=python,selenium,java,gitlab,junit,intellij,pycharm,)](https://skillicons.dev) -->
+h1>
 
+
+<img src="https://skillicons.dev/icons?i=postman,selenium,postgresql,html,css,javascript,java,python, "width="100%">
+<img src="https://skillicons.dev/icons?i=javascript,typescript,nodejs,php,androidstudio,redux,laravel,mysql,mongodb,postgresql" width="100%">
 <div align="left">
  
  <a href="https://www.postgresql.org/docs/" target="_blank">
