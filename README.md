@@ -19,11 +19,11 @@
 ### 💻 Programming  Languages and Tools
 
 <!-- [![My Skills](https://skillicons.dev/icons?i=python,selenium,java,gitlab,junit,intellij,pycharm,)](https://skillicons.dev) -->
-h1>
 
 
 
-<img src="https://skillicons.dev/icons?i=selenium,postman" height="30px" width="100%">
+
+<img src="https://skillicons.dev/icons?i=selenium,postman,junit,jira" height="35px" width="100%">
 <div align="left">
  
  <a href="https://www.postgresql.org/docs/" target="_blank">
