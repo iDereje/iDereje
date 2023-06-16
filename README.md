@@ -27,7 +27,7 @@
 <div align="left">
  
  <a href="https://www.postgresql.org/docs/" target="_blank">
- <img src="https://skillicons.dev/icons?i=postgresql"  style=width: "25PX"; backgroung: transperent">
+ <img src="https://skillicons.dev/icons?i=postgresql"  width="35PX" height="100%"; backgroung: transperent">
  </a>
  <a href="https://docs.oracle.com/en/java/" target="_blank">
  <img src="https://skillicons.dev/icons?i=java" width="35PX" height="100%"/>
