@@ -1,0 +1,428 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p,html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  300px/2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <p><a href="https://www.linkedin.com/in/daviddereje/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&amp;style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a> <a href="mailto:derejeisack@gmail.com"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&amp;style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Gmail"></a></p>
+<hr style=" border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
+<p><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?color=F72EB8FF&amp;center=false&amp;vCenter=flase&amp;width=400&amp;font=Abril+Fatface&amp;lines=Hi+there+%F0%9F%91%8B,+My+name+is+David!;I&apos;m+a+Quality+Assurance+Test+Engineer%F0%9F%A7%B0;Ensuring+quality+in+software%F0%9F%92%BB+is+my+passion;Finding+bugs%F0%9F%90%9E+and+making+software+%F0%9F%9A%80better;Debugging+like+a+ninja%F0%9F%A5%B7;+and+Reporting+issues+like+a+pro%E2%9A%94%EF%B8%8F+is+my+goal%E2%9C%85;" alt="Typing SVG"></a></p>
+<h3 class="mume-header" id="-welcome-to-my-world-of-software-testing-----coding--img--width30-alttools-srchttpscamogithubusercontentcombeb64ff21c883e318e4f5db5231c2ba4175705bea1c9249e82a41ab375db4f7568747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f51737347456d706b79454f684243623765312f67697068792e6769663f6369643d656366303565343761306e336769316266716e74716d6f62386739616964316f796a327772336473336d67373030626c267269643d67697068792e676966--and-quality-assurance">&#x1F31F; Welcome to my world of software testing &#x1F9EA;    Coding  <img width="30" alt="tools" src="https://camo.githubusercontent.com/beb64ff21c883e318e4f5db5231c2ba4175705bea1c9249e82a41ab375db4f75/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f51737347456d706b79454f684243623765312f67697068792e6769663f6369643d656366303565343761306e336769316266716e74716d6f62386739616964316f796a327772336473336d67373030626c267269643d67697068792e676966"> and Quality Assurance!</h3>
+
+<h4 class="mume-header" id="im-a-junior-qa-engineer-based-in-israel-aspiring-to-become-a-skilled-sdet-software-development-engineer-in-test">I&apos;m a Junior QA Engineer based in Israel, aspiring to become a skilled SDET (Software Development Engineer in Test).</h4>
+
+<h4 class="mume-header" id="with-a-solid-background-in-software-testing-and-an-istqb-certification-i-aim-to-contribute-to-the-development-and-testing-of-high-quality-applications-and-software-products">With a solid background in software testing and an ISTQB certification, I aim to contribute to the development and testing of high-quality applications and software products.</h4>
+
+<figure><embed src="https://wakatime.com/share/@DavidDereje/191c6b95-4eda-42b1-bc3f-b60bc3a18048.svg"></figure>
+<hr style=" border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
+<h3 class="mume-header" id="-programming--languages-and-tools">&#x1F4BB; Programming  Languages and Tools</h3>
+
+<div align="left">
+ <a href="https://www.postgresql.org/docs/" target="_blank">
+ <img src="https://skillicons.dev/icons?i=postgresql" width="35PX" height="100%" ; backgroung: transperent">
+ </a>
+ <a href="https://docs.oracle.com/en/java/" target="_blank">
+ <img src="https://skillicons.dev/icons?i=java" width="35PX" height="100%">
+ </a>
+ <a href="https://www.selenium.dev/documentation/" target="_blank">
+ <img src="https://skillicons.dev/icons?i=selenium" width="35PX" height="100%" ;">
+ </a>
+<a href="https://www.python.org">
+<img src="https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png" alt="Python" width="32" height="32">
+</a>
+<a href="https://docs.oracle.com/en/java/">
+  <img src="https://img.icons8.com/?size=2x&amp;id=WbhlkucPF3tZ&amp;format=png" alt="java" width="32" height="32">
+</a>
+<a href="https://testng.org">
+  <img src="https://img.icons8.com/color/48/000000/test-tube-rack.png" alt="TestNG" width="32" height="32">
+</a>
+<a href="https://www.linux.org/">
+  <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="32" height="32">
+</a>
+<a href="https://www.debian.org/">
+  <img src="https://img.icons8.com/color/48/000000/debian.png" alt="Debian" width="32" height="32">
+</a>
+<a href="https://archlinux.org/">
+  <img src="data:image/svg+xml;charset=utf-8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgo8c3ZnCiAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgeG1sbnM6Y2M9Imh0dHA6Ly93ZWIucmVzb3VyY2Uub3JnL2NjLyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB3aWR0aD0iMjU2IgogICBoZWlnaHQ9IjI1NiIKICAgaWQ9InN2ZzI0MjQiCiAgIHNvZGlwb2RpOnZlcnNpb249IjAuMzIiCiAgIGlua3NjYXBlOnZlcnNpb249IjAuNDUuMSIKICAgdmVyc2lvbj0iMS4wIgogICBzb2RpcG9kaTpkb2NiYXNlPSIvaG9tZS90aGF5ZXIvdG1wL2FyY2hsaW51eC1sb2dvLWNvbnRlc3QvYXJjaGVyL21hc3RlcnMiCiAgIHNvZGlwb2RpOmRvY25hbWU9ImFyY2hsaW51eC1pY29uLWNyeXN0YWwtMjU2LnN2ZyIKICAgaW5rc2NhcGU6b3V0cHV0X2V4dGVuc2lvbj0ib3JnLmlua3NjYXBlLm91dHB1dC5zdmcuaW5rc2NhcGUiCiAgIGlua3NjYXBlOmV4cG9ydC1maWxlbmFtZT0iL2hvbWUvdGhheWVyL2FyY2hsaW51eC1sb2dvLWNvbnRlc3QvYXJjaGVyLWZ1bGwtZGV0YWlsLnBuZyIKICAgaW5rc2NhcGU6ZXhwb3J0LXhkcGk9IjkwIgogICBpbmtzY2FwZTpleHBvcnQteWRwaT0iOTAiPgogIDxkZWZzCiAgICAgaWQ9ImRlZnMyNDI2Ij4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgaW5rc2NhcGU6Y29sbGVjdD0iYWx3YXlzIgogICAgICAgeGxpbms6aHJlZj0iI3BhdGgxMDgyXzJfIgogICAgICAgaWQ9ImxpbmVhckdyYWRpZW50MjI0MCIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIgogICAgICAgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC4zOTM3NzQxLDAsMCwwLjM5Mzc1Miw5NzguMzQ5NjksNDE2Ljk4MTUpIgogICAgICAgeDE9IjU0MS4zMzUwMiIKICAgICAgIHkxPSIxMDQuNTA2NjUiCiAgICAgICB4Mj0iNjA2LjkxMjQ4IgogICAgICAgeTI9IjMwMy4xNDAyOSIgLz4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiCiAgICAgICBpZD0icGF0aDEwODJfMl8iCiAgICAgICB5Mj0iMTI5LjM0NjgiCiAgICAgICB4Mj0iMTEyLjQ5ODUzIgogICAgICAgeTE9IjYuMTM3MjA5OSIKICAgICAgIHgxPSIxMTIuNDk4NTQiCiAgICAgICBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDI4NywtODMpIj4KICAgICAgPHN0b3AKICAgICAgICAgaWQ9InN0b3AxOTMiCiAgICAgICAgIG9mZnNldD0iMCIKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6I2ZmZmZmZjtzdG9wLW9wYWNpdHk6MCIgLz4KICAgICAgPHN0b3AKICAgICAgICAgaWQ9InN0b3AxOTUiCiAgICAgICAgIG9mZnNldD0iMSIKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6I2ZmZmZmZjtzdG9wLW9wYWNpdHk6MC4yNzQ1MDk4MjsiIC8+CiAgICAgIDxtaWRQb2ludFN0b3AKICAgICAgICAgaWQ9Im1pZFBvaW50U3RvcDE5NyIKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6I0ZGRkZGRiIKICAgICAgICAgb2Zmc2V0PSIwIiAvPgogICAgICA8bWlkUG9pbnRTdG9wCiAgICAgICAgIGlkPSJtaWRQb2ludFN0b3AxOTkiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkZGRkYiCiAgICAgICAgIG9mZnNldD0iMC41IiAvPgogICAgICA8bWlkUG9pbnRTdG9wCiAgICAgICAgIGlkPSJtaWRQb2ludFN0b3AyMDEiCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDAiCiAgICAgICAgIG9mZnNldD0iMSIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDMzODgiPgogICAgICA8c3RvcAogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojMDAwMDAwO3N0b3Atb3BhY2l0eTowOyIKICAgICAgICAgb2Zmc2V0PSIwIgogICAgICAgICBpZD0ic3RvcDMzOTAiIC8+CiAgICAgIDxzdG9wCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiMwMDAwMDA7c3RvcC1vcGFjaXR5OjAuMzcxMTM0MDE7IgogICAgICAgICBvZmZzZXQ9IjEiCiAgICAgICAgIGlkPSJzdG9wMzM5MiIgLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIGlua3NjYXBlOmNvbGxlY3Q9ImFsd2F5cyIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDQzNDYiPgogICAgICA8c3RvcAogICAgICAgICBzdHlsZT0ic3RvcC1jb2xvcjojMDBiZGVjO3N0b3Atb3BhY2l0eToxIgogICAgICAgICBvZmZzZXQ9IjAiCiAgICAgICAgIGlkPSJzdG9wNDM0OCIgLz4KICAgICAgPHN0b3AKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6IzQwYmZkZTtzdG9wLW9wYWNpdHk6MSIKICAgICAgICAgb2Zmc2V0PSIxIgogICAgICAgICBpZD0ic3RvcDQzNTAiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50CiAgICAgICBpbmtzY2FwZTpjb2xsZWN0PSJhbHdheXMiCiAgICAgICB4bGluazpocmVmPSIjbGluZWFyR3JhZGllbnQ0MzQ2IgogICAgICAgaWQ9ImxpbmVhckdyYWRpZW50NDM1MiIKICAgICAgIHgxPSI0MDAuNjE0MiIKICAgICAgIHkxPSI2MzQuMTUwNjMiCiAgICAgICB4Mj0iNjE2LjQ4NTUzIgogICAgICAgeTI9IjY2Ni45Nzc5MSIKICAgICAgIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiAvPgogICAgPGxpbmVhckdyYWRpZW50CiAgICAgICBpbmtzY2FwZTpjb2xsZWN0PSJhbHdheXMiCiAgICAgICBpZD0ibGluZWFyR3JhZGllbnQ1MzIzIj4KICAgICAgPHN0b3AKICAgICAgICAgc3R5bGU9InN0b3AtY29sb3I6IzZlNmU2ZTtzdG9wLW9wYWNpdHk6MSIKICAgICAgICAgb2Zmc2V0PSIwIgogICAgICAgICBpZD0ic3RvcDUzMjUiIC8+CiAgICAgIDxzdG9wCiAgICAgICAgIHN0eWxlPSJzdG9wLWNvbG9yOiM0ZDRkNGQ7c3RvcC1vcGFjaXR5OjEiCiAgICAgICAgIG9mZnNldD0iMSIKICAgICAgICAgaWQ9InN0b3A1MzI3IiAvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudAogICAgICAgaW5rc2NhcGU6Y29sbGVjdD0iYWx3YXlzIgogICAgICAgeGxpbms6aHJlZj0iI2xpbmVhckdyYWRpZW50NTMyMyIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDUzMjkiCiAgICAgICB4MT0iMjkxLjgzNTkxIgogICAgICAgeTE9IjIzOC4wODIzNyIKICAgICAgIHgyPSI2NTAuODEzNjYiCiAgICAgICB5Mj0iMzQ4Ljk2ODc1IgogICAgICAgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIC8+CiAgICA8bGluZWFyR3JhZGllbnQKICAgICAgIGlua3NjYXBlOmNvbGxlY3Q9ImFsd2F5cyIKICAgICAgIHhsaW5rOmhyZWY9IiNwYXRoMTA4Ml8yXyIKICAgICAgIGlkPSJsaW5lYXJHcmFkaWVudDIyMTYiCiAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIKICAgICAgIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTAuMzkzNzc0MSwwLDAsMC4zOTM3NTIsOTc4LjM0OTcsNDE2Ljk4MTUpIgogICAgICAgeDE9IjU0MS4zMzUwMiIKICAgICAgIHkxPSIxMDQuNTA2NjUiCiAgICAgICB4Mj0iNjA2LjkxMjQ4IgogICAgICAgeTI9IjMwMy4xNDAyOSIgLz4KICA8L2RlZnM+CiAgPHNvZGlwb2RpOm5hbWVkdmlldwogICAgIGlkPSJiYXNlIgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzY2NjY2NiIKICAgICBib3JkZXJvcGFjaXR5PSIxLjAiCiAgICAgZ3JpZHRvbGVyYW5jZT0iMTAwMDAiCiAgICAgZ3VpZGV0b2xlcmFuY2U9IjEwIgogICAgIG9iamVjdHRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAuMCIKICAgICBpbmtzY2FwZTpwYWdlc2hhZG93PSIyIgogICAgIGlua3NjYXBlOnpvb209IjEiCiAgICAgaW5rc2NhcGU6Y3g9IjEyOCIKICAgICBpbmtzY2FwZTpjeT0iMTI4IgogICAgIGlua3NjYXBlOmRvY3VtZW50LXVuaXRzPSJweCIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJnMjIxMCIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjYzNiIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSI1MTEiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjEwMzgiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjE2IiAvPgogIDxtZXRhZGF0YQogICAgIGlkPSJtZXRhZGF0YTI0MjkiPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6Zm9ybWF0PmltYWdlL3N2Zyt4bWw8L2RjOmZvcm1hdD4KICAgICAgICA8ZGM6dHlwZQogICAgICAgICAgIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiIC8+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgogIDxnCiAgICAgaW5rc2NhcGU6bGFiZWw9IkxheWVyIDEiCiAgICAgaW5rc2NhcGU6Z3JvdXBtb2RlPSJsYXllciIKICAgICBpZD0ibGF5ZXIxIgogICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNjkuNTE3ODMsLTczLjYwMTI0NykiPgogICAgPGcKICAgICAgIGlkPSJnMjQyNCIKICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDEuMzQ3MzY4NCwwLDAsMS4zNDczNjg0LC02MzIuODgyMzYsLTUxMy4zNDM2NikiPgogICAgICA8ZwogICAgICAgICBpZD0iZzIyMTAiPgogICAgICAgIDxwYXRoCiAgICAgICAgICAgc3R5bGU9ImZpbGw6IzE3OTNkMTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MTtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1vcGFjaXR5OjEiCiAgICAgICAgICAgZD0iTSAxMjggMCBDIDExNi42MDUxOCAyNy45MzcwNTEgMTA5LjY4NjYzIDQ2LjIzNzE2MyA5NyA3My4zNDM3NSBDIDEwNC43Nzg1IDgxLjU4ODk1NyAxMTQuMzM4MjYgOTEuMTU1NTAzIDEyOS44NDM3NSAxMDIgQyAxMTMuMTczODMgOTUuMTQwNDIzIDEwMS44MTAxOCA4OC4yNzE0OTYgOTMuMzEyNSA4MS4xMjUgQyA3Ny4wNzYwMzkgMTE1LjAwNDg5IDUxLjYyMTY0NSAxNjMuMjQ2MzkgMCAyNTYgQyA0MC41NjI3MDcgMjMyLjU4MjQ0IDcyLjAwNzU5NyAyMTguMTM4MzMgMTAxLjMxMjUgMjEyLjYyNSBDIDEwMC4wNTg3NCAyMDcuMjIwNjUgOTkuMzg4OTk1IDIwMS4zNDc0OCA5OS40Mzc1IDE5NS4yNSBMIDk5LjQ2ODc1IDE5My45Njg3NSBDIDEwMC4xMTI1NCAxNjcuOTc0NzcgMTEzLjYzODA5IDE0Ny45ODY1MSAxMjkuNjU2MjUgMTQ5LjM0Mzc1IEMgMTQ1LjY3NDQgMTUwLjcwMDk4IDE1OC4xNDM3OSAxNzIuODgxMDIgMTU3LjUgMTk4Ljg3NSBDIDE1Ny4zNzg3MyAyMDMuNzcxMjIgMTU2LjgwOTUgMjA4LjQ3NTgyIDE1NS44NDM3NSAyMTIuODQzNzUgQyAxODQuODMzMjggMjE4LjUxNjkxIDIxNS45ODE2MiAyMzIuODk2NjcgMjU2IDI1NiBDIDI0OC4xMDgwNyAyNDEuNDcwMzggMjQxLjAzOTQ5IDIyOC4zODAxNyAyMzQuMzEyNSAyMTUuOTA2MjUgQyAyMjMuNzE2NDEgMjA3LjY5MzU2IDIxMi42Njk0OSAxOTcuMDA4ODIgMTkwLjEyNSAxODUuNDM3NSBDIDIwNS42MjA4IDE4OS40NjM5NSAyMTYuNzI2ODQgMTk0LjEyIDIyNS4zNzUgMTk5LjMxMjUgQyAxNTYuOTc5ODUgNzEuOTcyNjY4IDE1MS40NTQyMiA1NS4wNDAzNzYgMTI4IDAgeiAiCiAgICAgICAgICAgaWQ9InBhdGgyNTE4IgogICAgICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDAuNzQyMTg3NSwwLDAsMC43NDIxODc1LDY2OS43NTAxNSw0MzUuNjIzMTgpIiAvPgogICAgICAgIDxwYXRoCiAgICAgICAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MC4xNjU2ODA0NztmaWxsLXJ1bGU6ZXZlbm9kZDtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MzYuMDk5OTk4NDc7c3Ryb2tlLWxpbmVjYXA6YnV0dDtzdHJva2UtbGluZWpvaW46cm91bmQ7c3Ryb2tlLW1pdGVybGltaXQ6MTA7c3Ryb2tlLW9wYWNpdHk6MSIKICAgICAgICAgICBkPSJNIDgxOC4yMjYwNyw1NDguNTUyNzcgQyA3NzcuMDQ0NjQsNDkyLjY1NzY5IDc2Ny40OTkyMiw0NDcuNjA3OTYgNzY1LjA4MTQsNDM2Ljg1MjYyIEMgNzg3LjA0ODc3LDQ4Ny41MjEyMiA3ODYuODk4NzMsNDg4LjE0MjU3IDgxOC4yMjYwNyw1NDguNTUyNzcgeiAiCiAgICAgICAgICAgaWQ9InBhdGgyNTIyIgogICAgICAgICAgIHNvZGlwb2RpOm5vZGV0eXBlcz0iY2NjIiAvPgogICAgICAgIDxwYXRoCiAgICAgICAgICAgc3R5bGU9ImZpbGw6dXJsKCNsaW5lYXJHcmFkaWVudDIyNDApO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjcxNDE2Njg4O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLW9wYWNpdHk6MSIKICAgICAgICAgICBkPSJNIDc2NS4wOTgwNSw0MzYuNDM0OTUgQyA3NjQuMDQxNjQsNDM5LjAzMiA3NjMuMDEyNDYsNDQxLjU1MjE1IDc2Mi4wMzY1Myw0NDMuOTQ5NiBDIDc2MC45NTUzOCw0NDYuNjA1NDUgNzU5LjkyNzI1LDQ0OS4xNDA4OCA3NTguOTA1NDIsNDUxLjYyNjYgQyA3NTcuODgzNjgsNDU0LjExMjM1IDc1Ni44NzEwMyw0NTYuNTM4MTYgNzU1Ljg2NzA5LDQ1OC45MzI1MSBDIDc1NC44NjMxMSw0NjEuMzI2OTcgNzUzLjg1NjQxLDQ2My42OTQyIDc1Mi44Mjg3Niw0NjYuMDc2MDYgQyA3NTEuODAxMTgsNDY4LjQ1NzgzIDc1MC43NjcyLDQ3MC44NjQ1MSA3NDkuNjc0NDcsNDczLjMxMjM5IEMgNzQ4LjU4MTc0LDQ3NS43NjAzNSA3NDcuNDQxMTIsNDc4LjI1NzQzIDc0Ni4yNDE4NSw0ODAuODUwMjMgQyA3NDUuMDQyNDgsNDgzLjQ0MzA1IDc0My43ODU0NCw0ODYuMTI4MzggNzQyLjQzODE0LDQ4OC45NDQ3MSBDIDc0Mi4yNTE1Miw0ODkuMzM0NzkgNzQyLjAyNTAyLDQ4OS43Nzg3MyA3NDEuODM1MTEsNDkwLjE3Mzk2IEMgNzQ3LjU5MDMyLDQ5Ni4yNjk1OSA3NTQuNjc2NDQsNTAzLjMyMzcyIDc2Ni4xMTg1Niw1MTEuMzI2MyBDIDc1My43NzgzNSw1MDYuMjQ4MzggNzQ1LjM1MzQ1LDUwMS4xNjg3OSA3MzkuMDUxOTEsNDk1Ljg3OTUzIEMgNzM4LjcyNDc0LDQ5Ni41NDc0NCA3MzguNDM4MDQsNDk3LjE0Mzg0IDczOC4xMDA5OCw0OTcuODI3NzcgQyA3MzcuNjU3MzMsNDk4LjcyODAxIDczNy4xMjQ2Niw0OTkuNzUwOTIgNzM2LjY2Mjk5LDUwMC42ODA1NSBDIDczNS44NTMzMiw1MDIuMzQwODcgNzM1LjAwNzI1LDUwNC4wNDYzMSA3MzQuMTM0OTIsNTA1LjgwNjI5IEMgNzMzLjc5OTY4LDUwNi40NzI4MSA3MzMuNTA1NDQsNTA3LjA0OTEyIDczMy4xNjA3OSw1MDcuNzMxMzMgQyA3MjcuNjUzNDYsNTE4Ljc4Mzk4IDcyMC44MjExNyw1MzIuMDE0MzcgNzEyLjAzMTY0LDU0OC40NTg4NyBDIDczNi4xMjcyMSw1MzQuODgzMDYgNzYyLjExNjk3LDUxNS4yOTY0NSA4MDkuMzI3NzksNTMyLjE1Mzk0IEMgODA2Ljk2MDcxLDUyNy42NzA3NSA4MDQuNzg0Niw1MjMuNDY2MzggODAyLjc0MDg3LDUxOS41MTM1NiBDIDgwMC42OTcxNyw1MTUuNTYwNjIgNzk4Ljc5ODQxLDUxMS44NTgwNiA3OTcuMDM1MzEsNTA4LjM1NzU1IEMgNzk1LjI3MjM0LDUwNC44NTcxMiA3OTMuNjQzMTksNTAxLjU1Njg2IDc5Mi4xMTgzMSw0OTguNDMwOCBDIDc5MC41OTM0NSw0OTUuMzA0ODEgNzg5LjE3OTk5LDQ5Mi4zNTQzIDc4Ny44NTA3NCw0ODkuNTI0NTUgQyA3ODYuNTIxNCw0ODYuNjk0ODUgNzg1LjI2OTY4LDQ4My45NzE5MSA3ODQuMDkzNDEsNDgxLjM2MDQ4IEMgNzgyLjkxNzA3LDQ3OC43NDkwOCA3ODEuNzk2MzMsNDc2LjI0NzMzIDc4MC43MzAzNyw0NzMuNzc2MjYgQyA3NzkuNjY0Myw0NzEuMzA1MDYgNzc4LjY0MzgsNDY4Ljg3OTA4IDc3Ny42NDU2Niw0NjYuNDcwMzUgQyA3NzYuNjQ3NDMsNDY0LjA2MTU1IDc3NS42NzI5OSw0NjEuNjU4NTcgNzc0LjcwMDEsNDU5LjIzNDAyIEMgNzc0LjM1MjM4LDQ1OC4zNjc2NCA3NzQuMDA0NTcsNDU3LjQ2NTEyIDc3My42NTY0LDQ1Ni41ODk5OCBDIDc3MC45OTMwMSw0NTAuMzM3MjkgNzY4LjI1ODIsNDQzLjg1ODM1IDc2NS4wOTgwNSw0MzYuNDM0OTUgeiAiCiAgICAgICAgICAgaWQ9InBhdGgyNTIwIiAvPgogICAgICA8L2c+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" alt="Debian" width="32" height="32">
+</a>
+<a href="https://docs.microsoft.com/en-us/powershell/">
+  <img src="https://img.icons8.com/color/48/000000/powershell.png" alt="PowerShell" width="32" height="32">
+</a>
+<a href="https://git-scm.com">
+  <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git" width="32" height="32">
+</a>
+<a href="https://github.com">
+  <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" width="32" height="32">
+</a>
+  <a href="https://circleci.com/docs/" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/circleci-color.svg" alt="CircleCI" width="32" height="32">
+</a>
+<a href="https://github.com/features/actions" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/githubactions-color.svg" alt="GitHub Actions" width="32" height="32">
+</a>
+<a href="https://about.gitlab.com" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/gitlab-color.svg" alt="GitLab" width="32" height="32">
+</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/html5-color.svg" alt="HTML5" width="32" height="32">
+</a>
+<a href="https://www.docker.com">
+  <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="32" height="32">
+</a>
+<a href="https://code.visualstudio.com/docs">
+  <img src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxtYXNrIGlkPSJtYXNrMCIgbWFzay10eXBlPSJhbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcwLjkxMTkgOTkuMzE3MUM3Mi40ODY5IDk5LjkzMDcgNzQuMjgyOCA5OS44OTE0IDc1Ljg3MjUgOTkuMTI2NEw5Ni40NjA4IDg5LjIxOTdDOTguNjI0MiA4OC4xNzg3IDEwMCA4NS45ODkyIDEwMCA4My41ODcyVjE2LjQxMzNDMTAwIDE0LjAxMTMgOTguNjI0MyAxMS44MjE4IDk2LjQ2MDkgMTAuNzgwOEw3NS44NzI1IDAuODczNzU2QzczLjc4NjIgLTAuMTMwMTI5IDcxLjM0NDYgMC4xMTU3NiA2OS41MTM1IDEuNDQ2OTVDNjkuMjUyIDEuNjM3MTEgNjkuMDAyOCAxLjg0OTQzIDY4Ljc2OSAyLjA4MzQxTDI5LjM1NTEgMzguMDQxNUwxMi4xODcyIDI1LjAwOTZDMTAuNTg5IDIzLjc5NjUgOC4zNTM2MyAyMy44OTU5IDYuODY5MzMgMjUuMjQ2MUwxLjM2MzAzIDMwLjI1NDlDLTAuNDUyNTUyIDMxLjkwNjQgLTAuNDU0NjMzIDM0Ljc2MjcgMS4zNTg1MyAzNi40MTdMMTYuMjQ3MSA1MC4wMDAxTDEuMzU4NTMgNjMuNTgzMkMtMC40NTQ2MzMgNjUuMjM3NCAtMC40NTI1NTIgNjguMDkzOCAxLjM2MzAzIDY5Ljc0NTNMNi44NjkzMyA3NC43NTQxQzguMzUzNjMgNzYuMTA0MyAxMC41ODkgNzYuMjAzNyAxMi4xODcyIDc0Ljk5MDVMMjkuMzU1MSA2MS45NTg3TDY4Ljc2OSA5Ny45MTY3QzY5LjM5MjUgOTguNTQwNiA3MC4xMjQ2IDk5LjAxMDQgNzAuOTExOSA5OS4zMTcxWk03NS4wMTUyIDI3LjI5ODlMNDUuMTA5MSA1MC4wMDAxTDc1LjAxNTIgNzIuNzAxMlYyNy4yOTg5WiIgZmlsbD0id2hpdGUiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swKSI+CjxwYXRoIGQ9Ik05Ni40NjE0IDEwLjc5NjJMNzUuODU2OSAwLjg3NTU0MkM3My40NzE5IC0wLjI3Mjc3MyA3MC42MjE3IDAuMjExNjExIDY4Ljc1IDIuMDgzMzNMMS4yOTg1OCA2My41ODMyQy0wLjUxNTY5MyA2NS4yMzczIC0wLjUxMzYwNyA2OC4wOTM3IDEuMzAzMDggNjkuNzQ1Mkw2LjgxMjcyIDc0Ljc1NEM4LjI5NzkzIDc2LjEwNDIgMTAuNTM0NyA3Ni4yMDM2IDEyLjEzMzggNzQuOTkwNUw5My4zNjA5IDEzLjM2OTlDOTYuMDg2IDExLjMwMjYgMTAwIDEzLjI0NjIgMTAwIDE2LjY2NjdWMTYuNDI3NUMxMDAgMTQuMDI2NSA5OC42MjQ2IDExLjgzNzggOTYuNDYxNCAxMC43OTYyWiIgZmlsbD0iIzAwNjVBOSIvPgo8ZyBmaWx0ZXI9InVybCgjZmlsdGVyMF9kKSI+CjxwYXRoIGQ9Ik05Ni40NjE0IDg5LjIwMzhMNzUuODU2OSA5OS4xMjQ1QzczLjQ3MTkgMTAwLjI3MyA3MC42MjE3IDk5Ljc4ODQgNjguNzUgOTcuOTE2N0wxLjI5ODU4IDM2LjQxNjlDLTAuNTE1NjkzIDM0Ljc2MjcgLTAuNTEzNjA3IDMxLjkwNjMgMS4zMDMwOCAzMC4yNTQ4TDYuODEyNzIgMjUuMjQ2QzguMjk3OTMgMjMuODk1OCAxMC41MzQ3IDIzLjc5NjQgMTIuMTMzOCAyNS4wMDk1TDkzLjM2MDkgODYuNjMwMUM5Ni4wODYgODguNjk3NCAxMDAgODYuNzUzOCAxMDAgODMuMzMzNFY4My41NzI2QzEwMCA4NS45NzM1IDk4LjYyNDYgODguMTYyMiA5Ni40NjE0IDg5LjIwMzhaIiBmaWxsPSIjMDA3QUNDIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZCkiPgo8cGF0aCBkPSJNNzUuODU3OCA5OS4xMjYzQzczLjQ3MjEgMTAwLjI3NCA3MC42MjE5IDk5Ljc4ODUgNjguNzUgOTcuOTE2NkM3MS4wNTY0IDEwMC4yMjMgNzUgOTguNTg5NSA3NSA5NS4zMjc4VjQuNjcyMTNDNzUgMS40MTAzOSA3MS4wNTY0IC0wLjIyMzEwNiA2OC43NSAyLjA4MzI5QzcwLjYyMTkgMC4yMTE0MDIgNzMuNDcyMSAtMC4yNzM2NjYgNzUuODU3OCAwLjg3MzYzM0w5Ni40NTg3IDEwLjc4MDdDOTguNjIzNCAxMS44MjE3IDEwMCAxNC4wMTEyIDEwMCAxNi40MTMyVjgzLjU4NzFDMTAwIDg1Ljk4OTEgOTguNjIzNCA4OC4xNzg2IDk2LjQ1ODYgODkuMjE5Nkw3NS44NTc4IDk5LjEyNjNaIiBmaWxsPSIjMUY5Q0YwIi8+CjwvZz4KPGcgc3R5bGU9Im1peC1ibGVuZC1tb2RlOm92ZXJsYXkiIG9wYWNpdHk9IjAuMjUiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTcwLjg1MTEgOTkuMzE3MUM3Mi40MjYxIDk5LjkzMDYgNzQuMjIyMSA5OS44OTEzIDc1LjgxMTcgOTkuMTI2NEw5Ni40IDg5LjIxOTdDOTguNTYzNCA4OC4xNzg3IDk5LjkzOTIgODUuOTg5MiA5OS45MzkyIDgzLjU4NzFWMTYuNDEzM0M5OS45MzkyIDE0LjAxMTIgOTguNTYzNSAxMS44MjE3IDk2LjQwMDEgMTAuNzgwN0w3NS44MTE3IDAuODczNjk1QzczLjcyNTUgLTAuMTMwMTkgNzEuMjgzOCAwLjExNTY5OSA2OS40NTI3IDEuNDQ2ODhDNjkuMTkxMiAxLjYzNzA1IDY4Ljk0MiAxLjg0OTM3IDY4LjcwODIgMi4wODMzNUwyOS4yOTQzIDM4LjA0MTRMMTIuMTI2NCAyNS4wMDk2QzEwLjUyODMgMjMuNzk2NCA4LjI5Mjg1IDIzLjg5NTkgNi44MDg1NSAyNS4yNDZMMS4zMDIyNSAzMC4yNTQ4Qy0wLjUxMzMzNCAzMS45MDY0IC0wLjUxNTQxNSAzNC43NjI3IDEuMjk3NzUgMzYuNDE2OUwxNi4xODYzIDUwTDEuMjk3NzUgNjMuNTgzMkMtMC41MTU0MTUgNjUuMjM3NCAtMC41MTMzMzQgNjguMDkzNyAxLjMwMjI1IDY5Ljc0NTJMNi44MDg1NSA3NC43NTRDOC4yOTI4NSA3Ni4xMDQyIDEwLjUyODMgNzYuMjAzNiAxMi4xMjY0IDc0Ljk5MDVMMjkuMjk0MyA2MS45NTg2TDY4LjcwODIgOTcuOTE2N0M2OS4zMzE3IDk4LjU0MDUgNzAuMDYzOCA5OS4wMTA0IDcwLjg1MTEgOTkuMzE3MVpNNzQuOTU0NCAyNy4yOTg5TDQ1LjA0ODMgNTBMNzQuOTU0NCA3Mi43MDEyVjI3LjI5ODlaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXIpIi8+CjwvZz4KPC9nPgo8ZGVmcz4KPGZpbHRlciBpZD0iZmlsdGVyMF9kIiB4PSItOC4zOTQxMSIgeT0iMTUuODI5MSIgd2lkdGg9IjExNi43MjciIGhlaWdodD0iOTIuMjQ1NiIgZmlsdGVyVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgo8ZmVGbG9vZCBmbG9vZC1vcGFjaXR5PSIwIiByZXN1bHQ9IkJhY2tncm91bmRJbWFnZUZpeCIvPgo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIvPgo8ZmVPZmZzZXQvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI0LjE2NjY3Ii8+CjxmZUNvbG9yTWF0cml4IHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjI1IDAiLz4KPGZlQmxlbmQgbW9kZT0ib3ZlcmxheSIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93Ii8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW49IlNvdXJjZUdyYXBoaWMiIGluMj0iZWZmZWN0MV9kcm9wU2hhZG93IiByZXN1bHQ9InNoYXBlIi8+CjwvZmlsdGVyPgo8ZmlsdGVyIGlkPSJmaWx0ZXIxX2QiIHg9IjYwLjQxNjciIHk9Ii04LjA3NTU4IiB3aWR0aD0iNDcuOTE2NyIgaGVpZ2h0PSIxMTYuMTUxIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIi8+CjxmZU9mZnNldC8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjQuMTY2NjciLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMjUgMCIvPgo8ZmVCbGVuZCBtb2RlPSJvdmVybGF5IiBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJlZmZlY3QxX2Ryb3BTaGFkb3ciLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3ciIHJlc3VsdD0ic2hhcGUiLz4KPC9maWx0ZXI+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhciIgeDE9IjQ5LjkzOTIiIHkxPSIwLjI1NzgxMiIgeDI9IjQ5LjkzOTIiIHkyPSI5OS43NDIzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IndoaXRlIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0id2hpdGUiIHN0b3Atb3BhY2l0eT0iMCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=" alt="Docker" width="32" height="32">
+</a>
+<a href="https://www.jetbrains.com/help/idea/getting-started.html">
+  <img src="data:image/svg+xml;charset=utf-8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNzAgNzAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDcwIDcwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPGc+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwLjc4OTgiIHkxPSI0MC4wODkzIiB4Mj0iMzMuMzE3MiIgeTI9IjQwLjA4OTMiPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjI1ODEiIHN0eWxlPSJzdG9wLWNvbG9yOiNGOTdBMTIiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC40NTkxIiBzdHlsZT0ic3RvcC1jb2xvcjojQjA3QjU4Ii8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuNzI0MSIgc3R5bGU9InN0b3AtY29sb3I6IzU3N0JBRSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjkxMDUiIHN0eWxlPSJzdG9wLWNvbG9yOiMxRTdDRTUiLz4KCQkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzA4N0NGQSIvPgoJCTwvbGluZWFyR3JhZGllbnQ+CgkJPHBvbHlnb24gc3R5bGU9ImZpbGw6dXJsKCNTVkdJRF8xXyk7IiBwb2ludHM9IjE3LjcsNTQuNiAwLjgsNDEuMiA5LjIsMjUuNiAzMy4zLDM1IAkJIi8+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8yXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNS43Njc0IiB5MT0iMjQuODgiIHgyPSI3OS40MjQiIHkyPSI1NC41NyI+CgkJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNGOTdBMTIiLz4KCQkJPHN0b3AgIG9mZnNldD0iNy4xNzk5NDZlLTAwMiIgc3R5bGU9InN0b3AtY29sb3I6I0NCN0EzRSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjE1NDEiIHN0eWxlPSJzdG9wLWNvbG9yOiM5RTdCNkEiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC4yNDIiIHN0eWxlPSJzdG9wLWNvbG9yOiM3NTdCOTEiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC4zMzQ0IiBzdHlsZT0ic3RvcC1jb2xvcjojNTM3QkIxIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuNDMyNCIgc3R5bGU9InN0b3AtY29sb3I6IzM4N0NDQyIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjUzODEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyMzdDRTAiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC42NTUyIiBzdHlsZT0ic3RvcC1jb2xvcjojMTQ3Q0VGIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuNzkyNSIgc3R5bGU9InN0b3AtY29sb3I6IzBCN0NGNyIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDg3Q0ZBIi8+CgkJPC9saW5lYXJHcmFkaWVudD4KCQk8cG9seWdvbiBzdHlsZT0iZmlsbDp1cmwoI1NWR0lEXzJfKTsiIHBvaW50cz0iNzAsMTguNyA2OC43LDU5LjIgNDEuOCw3MCAyNS42LDU5LjYgNDkuMywzNSAzOC45LDEyLjMgNDguMiwxLjEgCQkiLz4KCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzNfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjYzLjIyNzciIHkxPSI0Mi45MTUzIiB4Mj0iNDguMjkwMyIgeTI9Ii0xLjcxOTEiPgoJCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRkUzMTVEIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjcuODQwMjQ2ZS0wMDIiIHN0eWxlPSJzdG9wLWNvbG9yOiNDQjQxN0UiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC4xNjAxIiBzdHlsZT0ic3RvcC1jb2xvcjojOUU0RTlCIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuMjQ3NCIgc3R5bGU9InN0b3AtY29sb3I6Izc1NUJCNCIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjMzOTIiIHN0eWxlPSJzdG9wLWNvbG9yOiM1MzY1Q0EiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC40MzY1IiBzdHlsZT0ic3RvcC1jb2xvcjojMzg2RERCIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuNTQxNCIgc3R5bGU9InN0b3AtY29sb3I6IzIzNzRFOSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjY1NzYiIHN0eWxlPSJzdG9wLWNvbG9yOiMxNDc4RjMiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC43OTQiIHN0eWxlPSJzdG9wLWNvbG9yOiMwQjdCRjgiLz4KCQkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzA4N0NGQSIvPgoJCTwvbGluZWFyR3JhZGllbnQ+CgkJPHBvbHlnb24gc3R5bGU9ImZpbGw6dXJsKCNTVkdJRF8zXyk7IiBwb2ludHM9IjcwLDE4LjcgNDguNyw0My45IDM4LjksMTIuMyA0OC4yLDEuMSAJCSIvPgoJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNF8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTAuNzIwNCIgeTE9IjE2LjQ3MyIgeDI9IjU1LjUyMzciIHkyPSI5MC41OCI+CgkJCTxzdG9wICBvZmZzZXQ9IjAiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRTMxNUQiLz4KCQkJPHN0b3AgIG9mZnNldD0iNC4wMjMyNzllLTAwMiIgc3R5bGU9InN0b3AtY29sb3I6I0Y2MzQ2MiIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjEwMzciIHN0eWxlPSJzdG9wLWNvbG9yOiNERjNBNzEiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC4xNjY3IiBzdHlsZT0ic3RvcC1jb2xvcjojQzI0MzgzIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuMjkxMiIgc3R5bGU9InN0b3AtY29sb3I6I0FENEE5MSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjU0OTgiIHN0eWxlPSJzdG9wLWNvbG9yOiM3NTVCQjQiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC45MTc1IiBzdHlsZT0ic3RvcC1jb2xvcjojMUQ3NkVEIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMwODdDRkEiLz4KCQk8L2xpbmVhckdyYWRpZW50PgoJCTxwb2x5Z29uIHN0eWxlPSJmaWxsOnVybCgjU1ZHSURfNF8pOyIgcG9pbnRzPSIzMy43LDU4LjEgNS42LDY4LjMgMTAuMSw1Mi41IDE2LDMzLjEgMCwyNy43IDEwLjEsMCAzMi4xLDIuNyA1My43LDI3LjQgCQkiLz4KCTwvZz4KCTxnPgoJCTxyZWN0IHg9IjEzLjciIHk9IjEzLjUiIHN0eWxlPSJmaWxsOiMwMDAwMDA7IiB3aWR0aD0iNDMuMiIgaGVpZ2h0PSI0My4yIi8+CgkJPHJlY3QgeD0iMTcuNyIgeT0iNDguNiIgc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIHdpZHRoPSIxNi4yIiBoZWlnaHQ9IjIuNyIvPgoJCTxwb2x5Z29uIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBwb2ludHM9IjI5LjQsMjIuNCAyOS40LDE5LjEgMjAuNCwxOS4xIDIwLjQsMjIuNCAyMywyMi40IDIzLDMzLjcgMjAuNCwzMy43IDIwLjQsMzcgMjkuNCwzNyAKCQkJMjkuNCwzMy43IDI2LjksMzMuNyAyNi45LDIyLjQgCQkiLz4KCQk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTM4LDM3LjNjLTEuNCwwLTIuNi0wLjMtMy41LTAuOGMtMC45LTAuNS0xLjctMS4yLTIuMy0xLjlsMi41LTIuOGMwLjUsMC42LDEsMSwxLjUsMS4zCgkJCWMwLjUsMC4zLDEuMSwwLjUsMS43LDAuNWMwLjcsMCwxLjMtMC4yLDEuOC0wLjdjMC40LTAuNSwwLjYtMS4yLDAuNi0yLjNWMTkuMWg0djExLjdjMCwxLjEtMC4xLDItMC40LDIuOGMtMC4zLDAuOC0wLjcsMS40LTEuMywyCgkJCWMtMC41LDAuNS0xLjIsMS0yLDEuMkMzOS44LDM3LjEsMzksMzcuMywzOCwzNy4zIi8+Cgk8L2c+CjwvZz4KPC9zdmc+" alt="Intellij" width="32" height="32">
+</a>
+<a href="https://www.jetbrains.com/help/pycharm/settings-tools-python-integrated-tools.html">
+  <img src="data:image/svg+xml;charset=utf-8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjEuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNzAgNzAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDcwIDcwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPGc+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNC45OTg1IiB5MT0iMjcuMDQ2MSIgeDI9IjY2LjY1NjUiIHkyPSIyNy4wNDYxIj4KCQkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzIxRDc4OSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojMDdDM0YyIi8+CgkJPC9saW5lYXJHcmFkaWVudD4KCQk8cG9seWdvbiBzdHlsZT0iZmlsbDp1cmwoI1NWR0lEXzFfKTsiIHBvaW50cz0iNDkuMSwxMSA2OS41LDI4LjEgNjIuMiw0MyA0OS44LDM5LjYgMzkuMiwzOS42IAkJIi8+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8yXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItMjQuNTU5NCIgeTE9IjU5LjA4MDYiIHgyPSI2MS4yMTk2IiB5Mj0iLTQuMjQxMyI+CgkJCTxzdG9wICBvZmZzZXQ9IjEuMDc1MjY5ZS0wMDIiIHN0eWxlPSJzdG9wLWNvbG9yOiNGQ0Y4NEEiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC4xMTE2IiBzdHlsZT0ic3RvcC1jb2xvcjojQTdFQjYyIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuMjA1NiIgc3R5bGU9InN0b3AtY29sb3I6IzVGRTA3NyIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjI3MjciIHN0eWxlPSJzdG9wLWNvbG9yOiMzMkRBODQiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC4zMDY1IiBzdHlsZT0ic3RvcC1jb2xvcjojMjFENzg5Ii8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuNTc2OCIgc3R5bGU9InN0b3AtY29sb3I6IzIxRDc4OSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjU5NjgiIHN0eWxlPSJzdG9wLWNvbG9yOiMyMUQ3ODkiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC42ODYiIHN0eWxlPSJzdG9wLWNvbG9yOiMyMEQ2OEMiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC43NjI3IiBzdHlsZT0ic3RvcC1jb2xvcjojMUVENDk3Ii8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuODM0OCIgc3R5bGU9InN0b3AtY29sb3I6IzE5RDFBOSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjkwNCIgc3R5bGU9InN0b3AtY29sb3I6IzEzQ0NDMiIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjk3MDciIHN0eWxlPSJzdG9wLWNvbG9yOiMwQkM2RTEiLz4KCQkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzA3QzNGMiIvPgoJCTwvbGluZWFyR3JhZGllbnQ+CgkJPHBvbHlnb24gc3R5bGU9ImZpbGw6dXJsKCNTVkdJRF8yXyk7IiBwb2ludHM9IjI4LjUsMjIuMSAyNC41LDQzIDI0LjEsNTAuMiAxNC4yLDU0LjUgMCw1NiA0LjMsMTAuNyAyOS45LDAgNDUuNywxMC40IAkJIi8+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8zXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI5LjMzMDEiIHkxPSI3Ny42NTM2IiB4Mj0iMjMuNjM2OSIgeTI9IjMyLjc1OTgiPgoJCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojMjFENzg5Ii8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuMTYzOCIgc3R5bGU9InN0b3AtY29sb3I6IzI0RDc4OCIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjMwNDciIHN0eWxlPSJzdG9wLWNvbG9yOiMyRkQ4ODYiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC40MzcxIiBzdHlsZT0ic3RvcC1jb2xvcjojNDFEQTgyIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuNTY0NCIgc3R5bGU9InN0b3AtY29sb3I6IzVBREM3RCIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjY4ODEiIHN0eWxlPSJzdG9wLWNvbG9yOiM3QUUwNzciLz4KCQkJPHN0b3AgIG9mZnNldD0iMC44MDkiIHN0eWxlPSJzdG9wLWNvbG9yOiNBMUUzNkUiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC45MjU0IiBzdHlsZT0ic3RvcC1jb2xvcjojQ0ZFODY1Ii8+CgkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiNGMUVCNUUiLz4KCQk8L2xpbmVhckdyYWRpZW50PgoJCTxwb2x5Z29uIHN0eWxlPSJmaWxsOnVybCgjU1ZHSURfM18pOyIgcG9pbnRzPSIyOC41LDIyLjEgMzAuNCw2Mi41IDI0LDcwIDAsNTYgMTkuNywyNi42IAkJIi8+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF80XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyOC4yNzUzIiB5MT0iMzguNjIzMSIgeDI9IjU5LjQwODgiIHkyPSItMy4yMzU4Ij4KCQkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzIxRDc4OSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSI2LjA4MTA1MGUtMDAyIiBzdHlsZT0ic3RvcC1jb2xvcjojMjRENzg4Ii8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuMTEzMSIgc3R5bGU9InN0b3AtY29sb3I6IzJGRDg4NiIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjE2MjIiIHN0eWxlPSJzdG9wLWNvbG9yOiM0MURBODIiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC4yMDk0IiBzdHlsZT0ic3RvcC1jb2xvcjojNUFERDdEIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuMjU0OCIgc3R5bGU9InN0b3AtY29sb3I6Izc5RTA3NyIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjI1ODEiIHN0eWxlPSJzdG9wLWNvbG9yOiM3Q0UwNzYiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC40OTg2IiBzdHlsZT0ic3RvcC1jb2xvcjojOENFMTczIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuOTI0NyIgc3R5bGU9InN0b3AtY29sb3I6I0IyRTU2QiIvPgoJCTwvbGluZWFyR3JhZGllbnQ+CgkJPHBvbHlnb24gc3R5bGU9ImZpbGw6dXJsKCNTVkdJRF80Xyk7IiBwb2ludHM9IjU0LjksMTkuMSAzMC42LDE5LjEgNTIuMSwwIAkJIi8+CgkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF81XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI3NS44ODkzIiB5MT0iNDMuOTQ5NiIgeDI9IjEzLjE1NzkiIHkyPSI0My4zNjg3Ij4KCQkJPHN0b3AgIG9mZnNldD0iMC4zODcxIiBzdHlsZT0ic3RvcC1jb2xvcjojRkNGODRBIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuNTM1OCIgc3R5bGU9InN0b3AtY29sb3I6I0VDRjQ1MSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjgyNTkiIHN0eWxlPSJzdG9wLWNvbG9yOiNDMkU5NjQiLz4KCQkJPHN0b3AgIG9mZnNldD0iMC45MjQ3IiBzdHlsZT0ic3RvcC1jb2xvcjojQjJFNTZCIi8+CgkJPC9saW5lYXJHcmFkaWVudD4KCQk8cG9seWdvbiBzdHlsZT0iZmlsbDp1cmwoI1NWR0lEXzVfKTsiIHBvaW50cz0iNzAsNjIuNiA0OC42LDY5LjkgMjAuMiw2MS45IDI4LjUsMjIuMSAzMS44LDE5LjEgNDkuMSwxNy41IDQ3LjUsMzQuOSA2MS4zLDI5LjYgCQkKCQkJIi8+Cgk8L2c+Cgk8Zz4KCQk8cmVjdCB4PSIxMy40IiB5PSIxMy40IiBzdHlsZT0iZmlsbDojMDAwMDAwOyIgd2lkdGg9IjQzLjIiIGhlaWdodD0iNDMuMiIvPgoJCTxyZWN0IHg9IjE3LjUiIHk9IjQ4LjUiIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiB3aWR0aD0iMTYuMiIgaGVpZ2h0PSIyLjciLz4KCQk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTE3LjMsMTkuMWg3LjNjNC4zLDAsNi45LDIuNSw2LjksNi4ydjAuMWMwLDQuMS0zLjIsNi4zLTcuMiw2LjNoLTNWMzdoLTMuOVYxOS4xeiBNMjQuNCwyOC4xCgkJCWMyLDAsMy4xLTEuMiwzLjEtMi43di0wLjFjMC0xLjgtMS4yLTIuNy0zLjItMi43aC0zdjUuNUgyNC40eiIvPgoJCTxwYXRoIHN0eWxlPSJmaWxsOiNGRkZGRkY7IiBkPSJNMzMuMSwyOC4xTDMzLjEsMjguMWMwLTUuMSwzLjgtOS4zLDkuMy05LjNjMy40LDAsNS40LDEuMSw3LjEsMi44bC0yLjUsMi45Yy0xLjQtMS4zLTIuOC0yLTQuNi0yCgkJCWMtMywwLTUuMiwyLjUtNS4yLDUuNlYyOGMwLDMuMSwyLjEsNS42LDUuMiw1LjZjMiwwLDMuMy0wLjgsNC43LTIuMWwyLjUsMi41Yy0xLjgsMi0zLjksMy4yLTcuMywzLjJDMzcsMzcuMywzMy4xLDMzLjIsMzMuMSwyOC4xCgkJCSIvPgoJPC9nPgo8L2c+Cjwvc3ZnPg==" alt="Intellij" width="32" height="32">
+</a>
+  <a href="https://jekyllrb.com/docs/" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/jekyll-color.svg" alt="Jekyll" width="32" height="32">
+</a>
+<a href="https://junit.org/junit5/docs/current/user-guide/" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/junit5-color.svg" alt="JUnit 5" width="32" height="32">
+</a>
+<a href="https://www.apple.com/macos" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/macos-color.svg" alt="macOS" width="32" height="32">
+</a>
+<a href="https://www.microsoft.com/microsoft-365" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/microsoftoffice-color.svg" alt="Microsoft Office" width="32" height="32">
+</a>
+<a href="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16">
+  <img src="https://hrcdn.net/fcore/assets/badges/sql-89e76e7082.svg" alt="Badge Name" width="32" height="32">
+</a>
+ <a href="https://kubuntu.org" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/kubuntu-color.svg" alt="Kubuntu" width="32" height="32">
+</a>
+<a href="https://pop.system76.com" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/popos-color.svg" alt="Pop!_OS" width="32" height="32">
+</a>
+ <a href="https://www.atlassian.com/software/jira" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/jira-color.svg" alt="Jira" width="32" height="32">
+</a>
+ <a href="https://slack.com" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/slack-color.svg" alt="Slack" width="32" height="32">
+</a>
+<a href="https://stackoverflow.com" target="_blank">
+  <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/stackoverflow-color.svg" alt="Stack Overflow" width="32" height="32">
+</a>
+<a href="https://ubuntu.com" target="_blank">
+    <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/ubuntu-color.svg" alt="Ubuntu" width="32" height="32">
+</a>
+</div>
+<hr style=" border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
+<h3 class="mume-header" id="github-states">Github States</h3>
+
+<img src="https://github-profile-trophy.vercel.app/?username=iDereje&amp;theme=radical&amp;row=1&amp;column=6" alt="trophy">
+<div style="display: flex; width: 20%;">
+  <img alt="stats" style="width: 50%; height: 50%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iDereje&amp;layout=compact&amp;langs_count=10&amp;theme=radical">
+  <a href="https://github.com/iDereje??cardType=level&amp;theme=radical&amp;preferLogin=false" style="width: 50%; height: 100%;">
+    <img alt="iDereje GitHub Stats" style="width: 50%; height:50%;" src="https://awesome-github-stats.azurewebsites.net/user-stats/iDereje?cardType=level&amp;theme=radical&amp;preferLogin=false">
+  </a>
+<p><a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=iDereje&amp;theme=radical&amp;border_radius=3.5&amp;date_format=M%20j%5B%2C%20Y%5D&amp;hide_total_contributions=true" alt="GitHub Streak"></a></p>
+</div>
+<hr style=" border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
+<h4 class="mume-header" id="join-me-on-this-exhilarating-journey-towards-coding-and-testing-where-we-harness-the-power-of-music-to-unwind-and-embrace-relaxation-together-lets-elevate-the-software-experience-and-enrich-the-realm-of-music-">Join me on this exhilarating journey towards coding and testing, where we harness the power of music to unwind and embrace relaxation. Together, let&apos;s elevate the software experience and enrich the realm of music! &#x1F3A7;&#x1F680;</h4>
+
+  <a href="https://github.com/iDereje/spotify-github-profile">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&amp;cover_image=true&amp;theme=default&amp;show_offline=false&amp;background_color=121212&amp;interchange=false" alt="spotify-github-profile" style=" height: 352px; border-radius: 12px;">
+  </a>
+
+<hr style=" border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
+<h3 class="mume-header" id="open-for-hire--">Open For Hire  &#x1F4DE;</h3>
+
+<div align="left">
+  <a href="mailto:derejeisack@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" width="40" height="40"></a>
+  <a href="https://www.linkedin.com/in/daviddereje/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="40" height="40"></a>
+  <a href="https://twitter.com/DavidDerejeM"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter" width="40" height="40"></a>
+  <a href="https://github.com/iDereje">
+  <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" width="40" height="40">
+</a>
+</div>
+<div align="left">
+ <span>  <img src="https://img.icons8.com/?size=512&amp;id=IFmZRpbkaJYA&amp;format=png" alt="Smile " width="150" height="150"> 
+<p><img src="https://img.shields.io/static/v1?label=Status&amp;message=Active&amp;color=green" alt="Badge"><img src="https://komarev.com/ghpvc/?username=iDereje&amp;color=green" alt> <a href="https://wakatime.com/badge/github/iDereje/iDereje.github.io"><img src="https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg" alt="wakatime"></a></p>
+ </span></div>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
