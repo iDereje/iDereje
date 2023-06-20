@@ -180,26 +180,28 @@
 
 <img  src="https://github-profile-trophy.vercel.app/?username=iDereje&theme=radical&row=1&column=6" alt="trophy">
 
-<div style="display: flex; width: 50%;">
-  <img alt="stats" style="width: 50%; height: 100%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iDereje&layout=compact&langs_count=10&theme=radical">
+<div style="display: flex; width: 20%;">
+  <img alt="stats" style="width: 50%; height: 50%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iDereje&layout=compact&langs_count=10&theme=radical">
   <a href="https://github.com/iDereje??cardType=level&theme=radical&preferLogin=false" style="width: 50%; height: 100%;">
-    <img alt="iDereje GitHub Stats" style="width: 50%; height:100%;" src="https://awesome-github-stats.azurewebsites.net/user-stats/iDereje?cardType=level&theme=radical&preferLogin=false" />
+    <img alt="iDereje GitHub Stats" style="width: 50%; height:50%;" src="https://awesome-github-stats.azurewebsites.net/user-stats/iDereje?cardType=level&theme=radical&preferLogin=false" />
   </a>
+ 
+[![GitHub Streak](https://streak-stats.demolab.com?user=iDereje&theme=radical&border_radius=3.5&date_format=M%20j%5B%2C%20Y%5D&hide_total_contributions=true)](https://git.io/streak-stats)
 </div>
 
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=iDereje&theme=radical&mode=weekly)](https://git.io/streak-stats)
+
 
 <hr style= " border: none;
     height: 3px;
     background: linear-gradient(to right, #f00, #0f0, #00f);">
     
-#### Join me on this exciting quest of testing excellence in the world of music! Let's enhance the software experience together while coding, and make the world of music even better! 🎧🚀
+#### Join me on this exhilarating journey towards coding and testing, where we harness the power of music to unwind and embrace relaxation. Together, let's elevate the software experience and enrich the realm of music! 🎧🚀
 
 
 
   <a href="https://github.com/iDereje/spotify-github-profile">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false" alt="spotify-github-profile" style="width: 50%; height: 352px; border-radius: 12px;">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false" alt="spotify-github-profile" style=" height: 352px; border-radius: 12px;">
   </a>
 </div>
 
@@ -208,15 +210,14 @@
     background: linear-gradient(to right, #f00, #0f0, #00f);">
 
 
-### 📞Open For Hire  
-
-<div align="left">
+###  Open For Hire  📞
+ 
+<div align="left" >
   <a href="mailto:derejeisack@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" width="40" height="40"/></a>
   <a href="https://www.linkedin.com/in/daviddereje/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="40" height="40"/></a>
   <a href="https://twitter.com/DavidDerejeM"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter" width="40" height="40"/></a>
-  
- <a href="https://github.com/iDereje">
-  <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" width="32" height="32" />
+  <a href="https://github.com/iDereje">
+  <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" width="40" height="40" />
   
 </a>
 
