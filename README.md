@@ -11,8 +11,11 @@
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F72EB8FF&center=false&vCenter=flase&width=400&font=Abril+Fatface&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Test+Engineer🧰;Ensuring+quality+in+software💻+is+my+passion;Finding+bugs🐞+and+making+software+🚀better;Debugging+like+a+ninja🥷;+and+Reporting+issues+like+a+pro⚔️+is+my+goal✅;)](https://git.io/typing-svg)
  
 ### 🌟 Welcome to my world of software testing 🧪    Coding  <img  width="30" alt="tools" src="https://camo.githubusercontent.com/beb64ff21c883e318e4f5db5231c2ba4175705bea1c9249e82a41ab375db4f75/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f51737347456d706b79454f684243623765312f67697068792e6769663f6369643d656366303565343761306e336769316266716e74716d6f62386739616964316f796a327772336473336d67373030626c267269643d67697068792e676966" /> and Quality Assurance!
+
+
 ##### I'm a Junior QA Engineer based in Israel, aspiring to become a skilled SDET (Software Development Engineer in Test). 
 ##### With a solid background in software testing and an ISTQB certification, I aim to contribute to the development and testing of high-quality applications and software products.
+
 <figure><embed src="https://wakatime.com/share/@DavidDereje/191c6b95-4eda-42b1-bc3f-b60bc3a18048.svg"></embed></figure>
 
 <hr style= " border: none;
@@ -177,10 +180,10 @@
 
 <img  src="https://github-profile-trophy.vercel.app/?username=iDereje&theme=radical&row=1&column=6" alt="trophy">
 
-<div style="display: flex; width: 100%;">
+<div style="display: flex; width: 50%;">
   <img alt="stats" style="width: 50%; height: 100%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iDereje&layout=compact&langs_count=10&theme=radical">
   <a href="https://github.com/iDereje??cardType=level&theme=radical&preferLogin=false" style="width: 50%; height: 100%;">
-    <img alt="iDereje GitHub Stats" style="width: 100%; height:100%;" src="https://awesome-github-stats.azurewebsites.net/user-stats/iDereje?cardType=level&theme=radical&preferLogin=false" />
+    <img alt="iDereje GitHub Stats" style="width: 50%; height:100%;" src="https://awesome-github-stats.azurewebsites.net/user-stats/iDereje?cardType=level&theme=radical&preferLogin=false" />
   </a>
 </div>
 
@@ -190,14 +193,13 @@
 <hr style= " border: none;
     height: 3px;
     background: linear-gradient(to right, #f00, #0f0, #00f);">
+    
 #### Join me on this exciting quest of testing excellence in the world of music! Let's enhance the software experience together while coding, and make the world of music even better! 🎧🚀
 
 
-<div style="display: flex; width: 100%;">
-  <iframe style="border-radius: 12px; width: 100%; height: 352px;" src="https://open.spotify.com/embed/playlist/0vNS2bS9226VEDIw7bHSwc?utm_source=generator" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  
+
   <a href="https://github.com/iDereje/spotify-github-profile">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false" alt="spotify-github-profile" style="width: 50%; height: 352px; width:100%; border-radius: 12px;">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false" alt="spotify-github-profile" style="width: 50%; height: 352px; border-radius: 12px;">
   </a>
 </div>
 
