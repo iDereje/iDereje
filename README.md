@@ -2,27 +2,26 @@
 
 
 
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=false&vCenter=flase&width=400&font=Tahoma&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Test+Engineer🧰;Ensuring+quality+in+software💻+is+my+passion;Finding+bugs🐞+and+making+software+🚀better;Debugging+like+a+ninja🥷;+and+Reporting+issues+like+a+pro⚔️+is+my+goal✅;)](https://git.io/typing-svg)
+
+
+<hr style= " border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
+
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F72EB8FF&center=false&vCenter=flase&width=400&font=Abril+Fatface&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Test+Engineer🧰;Ensuring+quality+in+software💻+is+my+passion;Finding+bugs🐞+and+making+software+🚀better;Debugging+like+a+ninja🥷;+and+Reporting+issues+like+a+pro⚔️+is+my+goal✅;)](https://git.io/typing-svg)
  
-#### <hr>
-## 🌟 Welcome to my world of software testing 🧪    Coding  <img  width="30" alt="tools" src="https://camo.githubusercontent.com/beb64ff21c883e318e4f5db5231c2ba4175705bea1c9249e82a41ab375db4f75/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f51737347456d706b79454f684243623765312f67697068792e6769663f6369643d656366303565343761306e336769316266716e74716d6f62386739616964316f796a327772336473336d67373030626c267269643d67697068792e676966" /> and Quality Assurance! 
-#### <hr>
-#### I'm a Junior QA Engineer based in Israel, on a quest to become a skilled SDET (Software Development Engineer in Test). With my strong foundation in software testing and an ISTQB certification, I strive to contribute to the development and testing of high-quality applications and software products.
+### 🌟 Welcome to my world of software testing 🧪    Coding  <img  width="30" alt="tools" src="https://camo.githubusercontent.com/beb64ff21c883e318e4f5db5231c2ba4175705bea1c9249e82a41ab375db4f75/68747470733a2f2f6d65646961322e67697068792e636f6d2f6d656469612f51737347456d706b79454f684243623765312f67697068792e6769663f6369643d656366303565343761306e336769316266716e74716d6f62386739616964316f796a327772336473336d67373030626c267269643d67697068792e676966" /> and Quality Assurance!
+##### I'm a Junior QA Engineer based in Israel, aspiring to become a skilled SDET (Software Development Engineer in Test). 
+##### With a solid background in software testing and an ISTQB certification, I aim to contribute to the development and testing of high-quality applications and software products.
+<figure><embed src="https://wakatime.com/share/@DavidDereje/191c6b95-4eda-42b1-bc3f-b60bc3a18048.svg"></embed></figure>
 
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@DavidDereje/babbb770-80ad-445b-9362-0353f063d94c.png" /></a>
-
-
-### Join me on this exciting quest of testing excellence and let's make the world of software even better! 🚀
-
-## <hr>
+<hr style= " border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
 
 ### 💻 Programming  Languages and Tools
 
 <!-- [![My Skills](https://skillicons.dev/icons?i=python,selenium,java,gitlab,junit,intellij,pycharm,)](https://skillicons.dev) -->
-
-
-
-
 
 <div align="left">
  
@@ -151,9 +150,6 @@
   <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/popos-color.svg" alt="Pop!_OS" width="32" height="32" />
 </a>
 
-<a href="https://www.postgresql.org/docs/" target="_blank">
-  <img src="https://github.com/iDereje/iDereje/raw/c65cebe8f8bdbb87113c5bcc88a8c4657d6f72e2/icons/postgresql-color.svg" alt="PostgreSQL" width="32" height="32" />
-</a>
  <a href="https://www.atlassian.com/software/jira" target="_blank">
   <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/jira-color.svg" alt="Jira" width="32" height="32" />
 </a>
@@ -171,8 +167,47 @@
 </a>
   
 </div>
+<hr style= " border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
 
-## 📞 Open For Hire  
+
+### Github States
+
+
+<img  src="https://github-profile-trophy.vercel.app/?username=iDereje&theme=radical&row=1&column=6" alt="trophy">
+
+<div style="display: flex; width: 100%;">
+  <img alt="stats" style="width: 50%; height: 100%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iDereje&layout=compact&langs_count=10&theme=radical">
+  <a href="https://github.com/iDereje??cardType=level&theme=radical&preferLogin=false" style="width: 50%; height: 100%;">
+    <img alt="iDereje GitHub Stats" style="width: 100%; height:100%;" src="https://awesome-github-stats.azurewebsites.net/user-stats/iDereje?cardType=level&theme=radical&preferLogin=false" />
+  </a>
+</div>
+
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=iDereje&theme=radical&mode=weekly)](https://git.io/streak-stats)
+
+<hr style= " border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
+#### Join me on this exciting quest of testing excellence in the world of music! Let's enhance the software experience together while coding, and make the world of music even better! 🎧🚀
+
+
+<div style="display: flex; width: 100%;">
+  <iframe style="border-radius: 12px; width: 100%; height: 352px;" src="https://open.spotify.com/embed/playlist/0vNS2bS9226VEDIw7bHSwc?utm_source=generator" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  
+  <a href="https://github.com/iDereje/spotify-github-profile">
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false" alt="spotify-github-profile" style="width: 50%; height: 352px; width:100%; border-radius: 12px;">
+  </a>
+</div>
+
+<hr style= " border: none;
+    height: 3px;
+    background: linear-gradient(to right, #f00, #0f0, #00f);">
+
+
+### 📞Open For Hire  
+
 <div align="left">
   <a href="mailto:derejeisack@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" width="40" height="40"/></a>
   <a href="https://www.linkedin.com/in/daviddereje/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="40" height="40"/></a>
@@ -185,9 +220,10 @@
 
 </div>
 
- <span>  <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" /> 
 
 <div align="left">
+ <span>  <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" /> 
+
  
 ![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green)![](https://komarev.com/ghpvc/?username=iDereje&color=green) [![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
  </div>
