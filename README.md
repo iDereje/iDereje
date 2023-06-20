@@ -47,14 +47,10 @@
   <img src="https://img.icons8.com/?size=2x&id=WbhlkucPF3tZ&format=png" alt="java" width="32" height="32" />
 </a>
   
-
 <a href="https://testng.org">
   <img src="https://img.icons8.com/color/48/000000/test-tube-rack.png" alt="TestNG" width="32" height="32"/>
 </a>
   
-
-  
-
 <a href="https://www.linux.org/">
   <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="32" height="32"/>
 </a>
