@@ -179,7 +179,7 @@
 <div style="display: flex; width: 20%;">
   <img alt="stats" style="width: 50%; height: 50%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iDereje&layout=compact&langs_count=10&theme=radical">
   <a href="https://github.com/iDereje??cardType=level&theme=radical&preferLogin=false" style="width: 50%; height: 100%;">
-    <img alt="iDereje GitHub Stats" style="width: 50%; height:50%;" src="https://awesome-github-stats.azurewebsites.net/user-stats/iDereje?cardType=level&theme=radical&preferLogin=false" />
+    <img alt="iDereje GitHub Stats" style="width: 50%; height:50%;" src="https://awesome-github-stats.azurewebsites.net/user-stats/iDereje?cardType=level&theme=radical&preferLogin=true" />
   </a>
  
 [![GitHub Streak](https://streak-stats.demolab.com?user=iDereje&theme=radical&border_radius=3.5&date_format=M%20j%5B%2C%20Y%5D&hide_total_contributions=true)](https://git.io/streak-stats)
