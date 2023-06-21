@@ -182,7 +182,7 @@
     <img alt="iDereje GitHub Stats" style="width: 50%; height:50%;" src="https://awesome-github-stats.azurewebsites.net/user-stats/iDereje?cardType=level&theme=radical&preferLogin=false" />
   </a>
  
-[![GitHub Streak](https://streak-stats.demolab.com?user=iDereje&theme=radical&border_radius=3.5&date_format=M%20j%5B%2C%20Y%5D&hide_total_contributions=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=iDereje&theme=radical&border_radius=3.5&date_format=M%20j%5B%2C%20Y%5D&hide_total_contributions=false)](https://git.io/streak-stats)
 </div>
 
 
