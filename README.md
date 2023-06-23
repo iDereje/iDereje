@@ -19,7 +19,7 @@
     height: 3px;
     background: linear-gradient(to right, #f00, #0f0, #00f);">
 
-#### 💻 Programming  Languages and Tools
+#### 💻 **Programming  Languages and Tools**
 
 <!-- [![My Skills](https://skillicons.dev/icons?i=python,selenium,java,gitlab,junit,intellij,pycharm,)](https://skillicons.dev) -->
 
