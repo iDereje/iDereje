@@ -11,7 +11,7 @@
 
 
 #### I'm a Junior QA Engineer based in Israel, aspiring to become a skilled SDET (Software Development Engineer in Test). 
-#### With a solid background in software testing and an ISTQB certification, I aim to contribute to the development and testing of high-quality applications and software products.
+#### With a solid background in software testing and an **ISTQB certification**, I aim to contribute to the development and testing of high-quality applications and software products.
 
 <figure><embed src="https://wakatime.com/share/@DavidDereje/191c6b95-4eda-42b1-bc3f-b60bc3a18048.svg"></embed></figure>
 
@@ -19,7 +19,7 @@
     height: 3px;
     background: linear-gradient(to right, #f00, #0f0, #00f);">
 
-### 💻 Programming  Languages and Tools
+#### 💻 Programming  Languages and Tools
 
 <!-- [![My Skills](https://skillicons.dev/icons?i=python,selenium,java,gitlab,junit,intellij,pycharm,)](https://skillicons.dev) -->
 
@@ -168,7 +168,7 @@
     background: linear-gradient(to right, #f00, #0f0, #00f);">
 
 
-#### Github States
+### **Github States**
 
 
 <img  src="https://github-profile-trophy.vercel.app/?username=iDereje&theme=radical&row=1&column=6" alt="trophy">
@@ -203,7 +203,7 @@
     background: linear-gradient(to right, #f00, #0f0, #00f);">
 
 
-###  Open For Hire  📞
+#### **Open For Hire**  📞
  
 <div align="left" >
   <a href="mailto:derejeisack@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" width="40" height="40"/></a>
