@@ -1,9 +1,6 @@
  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daviddereje/) [![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:derejeisack@gmail.com) 
 
 
-
-
-
 <hr style= " border: none;
     height: 3px;
     background: linear-gradient(to right, #f00, #0f0, #00f);">
@@ -171,7 +168,7 @@
     background: linear-gradient(to right, #f00, #0f0, #00f);">
 
 
-### Github States
+#### Github States
 
 
 <img  src="https://github-profile-trophy.vercel.app/?username=iDereje&theme=radical&row=1&column=6" alt="trophy">
