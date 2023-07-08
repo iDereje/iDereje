@@ -4,13 +4,13 @@ import os
 
 
 def generate_commit_message(custom_message=None):
-    # Generate the commit message dynamically based on the current date
-    current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+    # Generate the commit message dynamically based on the current date and time
+    current_datetime = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     if custom_message:
-        commit_message = f"{custom_message} - {current_date}"
+        commit_message = f"{custom_message} - {current_datetime}"
     else:
-        commit_message = f"Auto commit - {current_date}"
+        commit_message = f"Auto commit - {current_datetime}"
 
     return commit_message
 
@@ -43,4 +43,4 @@ def git_workflow(commit_message=None):
 
 
 # Call the function to execute the Git workflow
-git_workflow("Fix The Missing  Date from the Commit Message")
+git_workflow("feat: Add support for custom commit messages with date and time")
