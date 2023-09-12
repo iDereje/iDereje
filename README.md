@@ -223,3 +223,4 @@
  
 ![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green)![](https://komarev.com/ghpvc/?username=iDereje&color=green) [![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
  </div>
+ דוד דרגה מסגנאו
