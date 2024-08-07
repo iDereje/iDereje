@@ -188,8 +188,6 @@
 <hr style= " border: none;
     height: 3px;
     background: linear-gradient(to right, #f00, #0f0, #00f);">
-    
-#### Join me on this exhilarating journey towards coding and testing, where we harness the power of music to unwind and embrace relaxation. Together, let's elevate the software experience and enrich the realm of music! 🎧🚀
 
 
 
