@@ -3,6 +3,8 @@
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daviddereje/) [![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:derejeisack@gmail.com)
 
 <hr style="border: none; height: 3px; background: linear-gradient(to right, #f00, #0f0, #00f);">
+🌟 Welcome to My Journey into Cybersecurity 🚀
+I'm a QA Engineer based in Israel, now focusing on building my career in Cybersecurity. With a solid background in software testing and an ISTQB certification, I aim to leverage my skills to protect applications and systems from security threats.
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F72EB8FF&center=false&vCenter=false&width=400&font=Abril+Fatface&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Engineer+transitioning+to+Cybersecurity🔒;Ensuring+software+security+is+my+new+passion;Finding+vulnerabilities🕵️‍♂️+and+making+systems+more+secure🚀;Debugging+and+analyzing+like+a+pro;)](https://git.io/typing-svg)
 
@@ -235,8 +237,6 @@ Sure! Here’s a rewritten version of your landing page, highlighting your trans
 
 <hr style="border: none; height: 3px; background: linear-gradient(to right, #f00, #0f0, #00f);">
 
-🌟 Welcome to My Journey into Cybersecurity 🚀
-I'm a QA Engineer based in Israel, now focusing on building my career in Cybersecurity. With a solid background in software testing and an ISTQB certification, I aim to leverage my skills to protect applications and systems from security threats.
 
 <figure><embed src="https://wakatime.com/share/@DavidDereje/191c6b95-4eda-42b1-bc3f-b60bc3a18048.svg"></embed></figure> <hr style="border: none; height: 3px; background: linear-gradient(to right, #f00, #0f0, #00f);">
 💻 Skills and Tools
