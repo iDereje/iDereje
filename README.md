@@ -219,7 +219,6 @@ I’m eager to connect with professionals and explore opportunities in the cyber
 
 <div align="left">
 
-Sure! Here’s a rewritten version of your landing page, highlighting your transition from QA Engineer to Cybersecurity:
 
 
 
