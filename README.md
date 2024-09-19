@@ -193,40 +193,4 @@ I’m eager to connect with professionals and explore opportunities in the cyber
 
 
 
-  <a href="https://github.com/iDereje/spotify-github-profile">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31p5jqa2xdf2obapfrqfg2cbfsgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false" alt="spotify-github-profile" style=" height: 352px; border-radius: 12px;">
-  </a>
-</div>
-
-<hr style= " border: none;
-    height: 3px;
-    background: linear-gradient(to right, #f00, #0f0, #00f);">
-
-
-#### **Open For Hire**  📞
- 
-<div align="left" >
-  <a href="mailto:derejeisack@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" width="40" height="40"/></a>
-  <a href="https://www.linkedin.com/in/daviddereje/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="40" height="40"/></a>
-  <a href="https://twitter.com/DavidDerejeM"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter" width="40" height="40"/></a>
-  <a href="https://github.com/iDereje">
-  <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" width="40" height="40" />
   
-</a>
-
-</div>
-
-
-<div align="left">
-
-
-
-
-<hr style="border: none; height: 3px; background: linear-gradient(to right, #f00, #0f0, #00f);">
-
-
-<figure><embed src="https://wakatime.com/share/@DavidDereje/191c6b95-4eda-42b1-bc3f-b60bc3a18048.svg"></embed></figure> <hr style="border: none; height: 3px; background: linear-gradient(to right, #f00, #0f0, #00f);">
-💻 Skills and Tools
-<div align="left"> <a href="https://www.postgresql.org/docs/" target="_blank"> <img src="https://skillicons.dev/icons?i=postgresql" width="35PX" height="100%"> </a> <a href="https://docs.oracle.com/en/java/" target="_blank"> <img src="https://skillicons.dev/icons?i=java" width="35PX" height="100%"/> </a> <a href="https://www.selenium.dev/documentation/" target="_blank"> <img src="https://skillicons.dev/icons?i=selenium" width="35PX" height="100%"/> </a> <a href="https://www.python.org"> <img src="https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png" alt="Python" width="32" height="32" /> </a> <a href="https://www.linux.org/"> <img src="https://img.icons8.com/color/48/000000/linux.png" alt="Linux" width="32" height="32"/> </a> <a href="https://github.com"> <img src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub" width="32" height="32" /> </a> <a href="https://www.docker.com"> <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker" width="32" height="32"/> </a> <a href="https://www.atlassian.com/software/jira" target="_blank"> <img src="https://github.com/iDereje/iDereje/raw/dcb4a7b41dfeb220ee0cc20a7cc0e21d6c345567/icons/jira-color.svg" alt="Jira" width="32" height="32" /> </a> </div> <hr style="border: none; height: 3px; background: linear-gradient(to right, #f00, #0f0, #00f);">
-Open For Opportunities in Cybersecurity 📞
-I’m eager to connect with professionals and explore opportunities in the cybersecurity domain.
