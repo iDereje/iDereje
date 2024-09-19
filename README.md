@@ -1,6 +1,4 @@
-Sure! Here’s a rewritten version of your landing page, highlighting your transition from QA Engineer to Cybersecurity:
 
----
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daviddereje/) [![Gmail](https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:derejeisack@gmail.com)
 
