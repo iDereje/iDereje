@@ -228,13 +228,7 @@ I’m eager to connect with professionals and explore opportunities in the cyber
 
 
 <div align="left">
- <span>  <img src="https://img.icons8.com/?size=512&id=IFmZRpbkaJYA&format=png" alt="Smile " width="150" height="150" /> 
 
- 
-![Badge](https://img.shields.io/static/v1?label=Status&message=Active&color=green)![](https://komarev.com/ghpvc/?username=iDereje&color=green) [![wakatime](https://wakatime.com/badge/github/iDereje/iDereje.github.io.svg)](https://wakatime.com/badge/github/iDereje/iDereje.github.io)
- </div>
-ChatGPT said:
-ChatGPT
 Sure! Here’s a rewritten version of your landing page, highlighting your transition from QA Engineer to Cybersecurity:
 
 
