@@ -8,18 +8,6 @@ I'm a QA Engineer based in Israel, now focusing on building my career in Cyberse
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F72EB8FF&center=false&vCenter=false&width=400&font=Abril+Fatface&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Engineer+transitioning+to+Cybersecurity🔒;Ensuring+software+security+is+my+new+passion;Finding+vulnerabilities🕵️‍♂️+and+making+systems+more+secure🚀;Debugging+and+analyzing+like+a+pro;)](https://git.io/typing-svg)
 
-### 🌟 Welcome to My Journey into Cybersecurity 🚀
-
-I'm a QA Engineer based in Israel, now focusing on building my career in Cybersecurity. With a solid background in software testing and an **ISTQB certification**, I aim to leverage my skills to protect applications and systems from security threats.
-
-<figure><embed src="https://wakatime.com/share/@DavidDereje/191c6b95-4eda-42b1-bc3f-b60bc3a18048.svg"></embed></figure>
-
-<hr style="border: none; height: 3px; background: linear-gradient(to right, #f00, #0f0, #00f);">
-
-
-
-<hr style="border: none; height: 3px; background: linear-gradient(to right, #f00, #0f0, #00f);">
-
 ### **Open For Opportunities in Cybersecurity** 📞
 
 I’m eager to connect with professionals and explore opportunities in the cybersecurity domain. 
