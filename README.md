@@ -7,7 +7,7 @@
 🌟 Welcome to My Journey into Cybersecurity 🚀
 I'm a QA Engineer based in Israel, now focusing on building my career in Cybersecurity. With a solid background in software testing and an ISTQB certification, I aim to leverage my skills to protect applications and systems from security threats.
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F72EB8FF&center=false&vCenter=false&width=400&font=Abril+Fatface&lines=Hi+there+👋,+My+name+is+David!;I'm+a+Quality+Assurance+Engineer+transitioning+to+Cybersecurity🔒;Ensuring+software+security+is+my+new+passion;Finding+vulnerabilities🕵️‍♂️+and+making+systems+more+secure🚀;Debugging+and+analyzing+like+a+pro;)](https://git.io/typing-svg)
+
 
 ### **Open For Opportunities in Cybersecurity** 📞
 
