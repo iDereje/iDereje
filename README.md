@@ -27,16 +27,17 @@ I’m eager to connect with professionals and explore opportunities in the cyber
 <!-- [![My Skills](https://skillicons.dev/icons?i=python,selenium,java,gitlab,junit,intellij,pycharm,)](https://skillicons.dev) -->
 
 <div align="left">
+  
+<a href="https://www.postgresql.org/docs/" target="_blank">
+<img src="https://skillicons.dev/icons?i=postgresql"  width="35PX" height="100%"; backgroung: transperent">
+</a>
  
- <a href="https://www.postgresql.org/docs/" target="_blank">
- <img src="https://skillicons.dev/icons?i=postgresql"  width="35PX" height="100%"; backgroung: transperent">
- </a>
- <a href="https://docs.oracle.com/en/java/" target="_blank">
- <img src="https://skillicons.dev/icons?i=java" width="35PX" height="100%"/>
- </a>
- <a href="https://www.selenium.dev/documentation/" target="_blank">
- <img src="https://skillicons.dev/icons?i=selenium" width="35PX" height="100%";"/>
- </a>
+<a href="https://docs.oracle.com/en/java/" target="_blank">
+<img src="https://skillicons.dev/icons?i=java" width="35PX" height="100%"/>
+</a>
+<a href="https://www.selenium.dev/documentation/" target="_blank">
+<img src="https://skillicons.dev/icons?i=selenium" width="35PX" height="100%";"/>
+</a>
 
 <a href="https://www.python.org">
 <img src="https://cdn.iconscout.com/icon/free/png-256/python-3521655-2945099.png" alt="Python" width="32" height="32" />
